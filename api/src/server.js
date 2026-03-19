@@ -7,8 +7,8 @@ const app  = express();
 const PORT = 3000;
 
 // ── Rutas de datos ────────────────────────────────────────
-const MONSTERS_PATH = path.join(__dirname, 'data', 'monsters_all.json');
-const IMAGES_DIR    = path.join(__dirname, 'templates', 'monster');
+const MONSTERS_PATH = path.join(__dirname,'..', 'data', 'monsters_all.json');
+const IMAGES_DIR    = path.join(__dirname,'..', 'templates', 'monster');
 
 // ── Middleware ────────────────────────────────────────────
 app.use(cors());
@@ -35,11 +35,18 @@ function sanitizeFilename(name) {
 function enrichMonster(monster, req) {
   const filename = sanitizeFilename(monster.name) + '.png';
   const imagePath = path.join(IMAGES_DIR, filename);
+  // DEBUG — eliminar una vez confirmado
+  console.log(`[enrichMonster] ${monster.name}`);
+  console.log(`  filename:  ${filename}`);
+  console.log(`  imagePath: ${imagePath}`);
+  console.log(`  exists:    ${fs.existsSync(imagePath)}`);
+  //Esto fallla porque el nombre de la imagen es diferente a cuando lo buscas. 
+
   return {
     ...monster,
     image_url: fs.existsSync(imagePath)
       ? `${req.protocol}://${req.get('host')}/monsters/${encodeURIComponent(monster.name)}/image`
-      : null,
+      : 'null',
   };
 }
 

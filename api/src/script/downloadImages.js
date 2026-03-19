@@ -125,7 +125,7 @@ async function fromFandom(monster, destPath) {
 // ── Main ─────────────────────────────────────────────────
 async function downloadAllImages() {
   // PASO 1 — Cargar monsters_all.json
-  const monstersPath = path.join(__dirname, 'data', 'monsters_all.json');
+  const monstersPath = path.join(__dirname, '..', '..', 'data', 'monsters_all.json');
   if (!fs.existsSync(monstersPath)) {
     console.error('✗ No se encuentra data/monsters_all.json. Ejecuta fetchMonsters.js primero.');
     process.exit(1);
@@ -134,7 +134,7 @@ async function downloadAllImages() {
   console.log(`[PASO 1] ${monsters.length} monstruos cargados`);
 
   // PASO 2 — Crear carpeta templates/monster
-  const outputDir = path.join(__dirname, 'templates', 'monster');
+  const outputDir = path.join(__dirname,'..', '..', 'templates', 'monster');
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
@@ -173,7 +173,7 @@ async function downloadAllImages() {
   }
 
   // PASO 4 — Guardar log de fallidos
-  const logPath = path.join(__dirname, 'data', 'images_pending.json');
+  const logPath = path.join(__dirname,'..', '..', 'data', 'images_pending.json');
   fs.writeFileSync(logPath, JSON.stringify({ failed: results.failed }, null, 2));
 
   // Resumen

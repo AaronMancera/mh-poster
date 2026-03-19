@@ -157,7 +157,7 @@ function normalizeCrimson(m) {
     ailments:   m.ailments || [],
     weaknesses: m.weakness || [],      // CrimsonNynja usa "weakness" sin 's'
     games:      (m.games || []).map(g => g.game),
-    source:     'mh-api.com',
+    source:     'github.com/CrimsonNynja/monster-hunter-DB',
   };
 }
 
@@ -182,7 +182,7 @@ async function safeFetch(url, label, retries = 3) {
 
 // ── Main ──────────────────────────────────────────────────
 async function fetchAllMonsters() {
-  const dataDir = path.join(__dirname, 'data');
+  const dataDir = path.join(__dirname, '..', '..', 'data');
   if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
 
   // PASO 1 — Fetch

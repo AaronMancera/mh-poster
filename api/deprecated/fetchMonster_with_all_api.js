@@ -139,7 +139,7 @@ function normalizeWilds(m) {
   return { name: m.name, species: m.species || 'unknown', type: m.type || 'unknown', elements: m.elements || [], weaknesses: (m.weaknesses || []).map(w => w.element), games: ['Wilds'], source: 'wilds.mhdb.io' };
 }
 function normalizeSaga(m) {
-  return { name: m.name || m.another_name, species: m.category || 'unknown', type: 'large', elements: [], weaknesses: [], games: m.title || [], image_url: m.image_url || null, source: 'mh-api.com' };
+  return { name: m.name || m.another_name, species: m.category || 'unknown', type: 'large', elements: [], weaknesses: [], games: m.title || [], source: 'mh-api.com' };
 }
 
 async function safeFetch(url, label) {
