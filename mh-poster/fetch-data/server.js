@@ -218,3 +218,25 @@ app.listen(PORT, () => {
   console.log(`  PUT    http://localhost:${PORT}/monsters/:name`);
   console.log(`  DELETE http://localhost:${PORT}/monsters/:name\n`);
 });
+
+//PRUEBA POST
+// curl -X POST http://localhost:3000/monsters -H "Content-Type: application/json" -d "{\"name\":\"Test Monster\",\"species\":\"test wyvern\",\"type\":\"large\",\"elements\":[\"fire\"],\"weaknesses\":[\"water\"],\"games\":[\"World\"]}"
+
+//PRUEBA POST uno que ya existe
+// Salida: {"error":"El monstruo 'Test Monster' ya existe"}
+//PRUEBA PUT
+// curl -X PUT http://localhost:3000/monsters/Test%20Monster -H "Content-Type: application/json" -d "{\"species\":\"updated wyvern\",\"elements\":[\"fire\",\"ice\"]}"
+
+// curl http://localhost:3000/monsters/Test%20Monster
+
+//PRUEBA PUT de uno que no existe
+// curl -X PUT http://localhost:3000/monsters/Testtt -H "Content-Type: application/json" -d "{\"species\":\"updated wyvern\",\"elements\":[\"fire\",\"ice\"]}"
+// Salida: {"error":"Monstruo no encontrado: Testtt"}
+
+//PRUEBA DELETE
+// curl -X DELETE http://localhost:3000/monsters/Test%20Monster
+// curl http://localhost:3000/monsters/Test%20Monster
+
+//PRUEBA DELETE de uno que no existe
+// curl -X DELETE http://localhost:3000/monsters/Test%20Monster
+// Salida: {"error":"Monstruo no encontrado: Test Monster"}
