@@ -1,0 +1,5119 @@
+[
+  {
+    "name": "Great Jagras",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "blast",
+      "paralysis",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "species": "bird wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "blast",
+      "paralysis",
+      "poison",
+      "sleep",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Pukei-Pukei",
+    "species": "bird wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Barroth",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Waterblight",
+      "Muddy"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Jyuratodus",
+    "species": "piscine wyvern",
+    "type": "large",
+    "elements": [
+      "water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Muddy"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Anjanath",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Azure Rathalos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "dragon",
+      "ice",
+      "water",
+      "thunder",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Bazelgeuse",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Blastblight",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Behemoth",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire",
+      "thunder"
+    ],
+    "ailments": [
+      "Bleeding",
+      "Fireblight",
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "sleep",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Deviljho",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Defense Down"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Diablos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Black Diablos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Dodogama",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Great Girros",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kirin",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Paralysis",
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kulve Taroth",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kushala Daora",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Lavasioth",
+    "species": "piscine wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "water",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Legiana",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "ice"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Lunastra",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Nergigante",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Odogaron",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Paolumu",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Wind Pressure"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Radobaan",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "blast",
+      "paralysis",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Rathalos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Rathian",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Pink Rathian",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Teostra",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Blastblight",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Tzitzi-Ya-Ku",
+    "species": "bird wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Uragaan",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Vaal Hazak",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Effluvial Buildup"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Xeno'jiiva",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Zorah Magdaros",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Leshen",
+    "species": "relict",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Ancient Leshen",
+    "species": "relict",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Safi'jiiva",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire",
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "dragon",
+      "ice",
+      "thunder",
+      "water",
+      "fire",
+      "dragon"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Stygian Zinogre",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "dragon"
+    ],
+    "ailments": [
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "thunder",
+      "fire",
+      "water"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Rajang",
+    "species": "fanged beast",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "blast",
+      "poison",
+      "sleep",
+      "paralysis",
+      "stun",
+      "ice",
+      "water"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Viper Tobi-Kadachi",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis",
+      "Poison"
+    ],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Namielle",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "water",
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "fire",
+      "dragon",
+      "ice"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Zinogre",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "ice",
+      "water",
+      "fire",
+      "dragon"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Zoh Shia",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Doshaguma",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Rey Dau",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Lala Barina",
+    "species": "temnoceran",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Congalala",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Nerscylla",
+    "species": "temnoceran",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder",
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gore Magala",
+    "species": "demi-elder",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire",
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gravios",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water",
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Arkveld",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Quematrice",
+    "species": "brute-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Doshaguma",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Balahara",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Chatacabra",
+    "species": "amphibian",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Mizutsune",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Fulgur Anjanath",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Hirabami",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Yian Kut-Ku",
+    "species": "bird-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Rompopolo",
+    "species": "brute-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Arkveld",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Ajarakan",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gypceros",
+    "species": "bird-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Xu Wu",
+    "species": "cephalopod",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Rathalos",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Uth Duna",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Jin Dahaad",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Nu Udra",
+    "species": "cephalopod",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Ebony Odogaron",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Blangonga",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Lagiacrus",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Seregios",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Omega Planetes",
+    "species": "machine",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gogmazios",
+    "species": "elder-dragon",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Abyssal Lagiacrus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Acidic Glavenus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Defence Down"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Agnaktor",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ahtal-Ka",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Defence Down",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Akantor",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Dragonblight",
+      "Defence Down"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Aknosom",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Alatreon",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Dragon",
+      "Thunder",
+      "Ice",
+      "Water"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Dragonblight",
+      "Iceblight",
+      "Snowman",
+      "Thunderblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Almudron",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Muddy"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Amatsu",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Apex Arzuros",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Apex Diablos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Apex Mizutsune",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Bubble",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Apex Rathalos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Stun",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Apex Rathian",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Apex Zinogre",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Arzuros",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ash Kecha Wacha",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ashen Lao-Shan Lung",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Astalos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Baleful Gigginox",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Paralysis",
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Banbaro",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Barioth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Basarios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Sleep",
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Versa Pietru",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Stories"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Beotodus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Berserk Tetsucabra",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Fatigue"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Bishaten",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison",
+      "Stun",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Black Gravios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Blackveil Vaal Hazak",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Effluvium"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Bloodbath Diablos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Blue Yian Kut-Ku",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Boltreaver Astalos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Brachydios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Slimeblight",
+      "Blastblight",
+      "Blastscourge"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Brute Tigrex",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Bulldrome",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ceadeus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water",
+      "Dragon"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Cephadrome",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Paralysis",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Chameleos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Chaotic Gore Magala",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Frenzy Virus"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Copper Blangonga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Coral Pukei-Pukei",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Crimson Fatalis",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Crimson Qurupeco",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Stun",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Crimson Glow Valstrax",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Crystalbeard Uragaan",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Sleep",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Dah'ren Mohran",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Daimyo Hermitaur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Dalamadur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Deadeye Yian Garuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Poison",
+      "Deadly Poison",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Desert Seltas",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Desert Seltas Queen",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Soiled",
+      "Stun",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Dire Miralis",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Dreadking Rathalos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Dreadqueen Rathian",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison",
+      "Deadly Poison"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Drilltusk Tetsucabra",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Fatigue",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Duramboros",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Poison"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ebony Odogaron",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Dragonblight",
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Elderfrost Gammoth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Emerald Congalala",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Sleep",
+      "Soiled",
+      "Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Espinas",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Poison",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Fatalis",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Flaming Espinas",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Frostfang Barioth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Fulgur Anjanath",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter World",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Furious Rajang",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Gaismagorm",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Gammoth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Garangolm",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Gendrome",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Giadrome",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Snowman",
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Gigginox",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison",
+      "Deadly Poison"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Glacial Agnaktor",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Glavenus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Gobul",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Gold Rathian",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Goldbeard Ceadeus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Goss Harag",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Great Baggi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Great Izuchi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Great Jaggi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Great Maccao",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Great Wroggi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Green Nargacuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Green Plesioth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Sleep",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Grimclaw Tigrex",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Iceblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Hallowed Jhen Mohran",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Hellblade Glavenus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Hypnocatrice",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Iodrome",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ivory Lagiacrus",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder",
+      "Water"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Jade Barroth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Snowman",
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Jhen Mohran",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Kecha Wacha",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Khezu",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "King Shakalaka",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Lagombi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Lao-Shan Lung",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Lucent Nargacuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Lunagaron",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Magma Almudron",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Magnamalo",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Hellfireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Makili Pietru",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Stories"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Malfestio",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep",
+      "Confusion"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Malzeno",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Bloodblight",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Molten Tigrex",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Monoblos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Najarala",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Nakarkos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Mucus",
+      "Boned",
+      "Fireblight",
+      "Blastblight",
+      "Dragonblight",
+      "Thunderblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Nargacuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Narwa The Allmother",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Nibelsnarf",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Nightcloak Malfestio",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep",
+      "Confusion"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Nightshade Paolumu",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Old Fatalis",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder",
+      "Dragon"
+    ],
+    "ailments": [],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Oltura",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ],
+    "ailments": [],
+    "weaknesses": [],
+    "games": [
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Oroshi Kirin",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Plesioth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Plum Daimyo Hermitaur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Primordial Malzeno",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Bloodblight",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Purple Gypceros",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison",
+      "Deadly Poison",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Purple Ludroth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Poison",
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Pyre Rakna-Kadaki",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Blastblight",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Qurupeco",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Defence Down",
+      "Sleep"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Raging Brachydios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Blastblight",
+      "BlastScourge"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Rakna-Kadaki",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Red Khezu",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Redhelm Arzuros",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Risen Chameleos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Noxious Poison"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Risen Kushala Daora",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon",
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Risen Shagaru Magala",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Frenzy Virus"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Risen Teostra",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Blastblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Risen Crimson Glow Valstrax",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Royal Ludroth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ruby Basarios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison",
+      "Deadly Poison",
+      "Sleep",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ruiner Nergigante",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Rust Duramboros",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Muddy"
+    ],
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Rusted Kushala Daora",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Rustrazor Ceanataur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Bleeding",
+      "Defence Down"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Sand Barioth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Savage Deviljho",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Defence Down",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Scarred Yian Garuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Scorned Magnamalo",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Hellfireblight"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Seething Bazelgeuse",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter World",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Seltas",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Defence Down",
+      "Fatigue"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Seltas Queen",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Soiled",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shagaru Magala",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Frenzy Virus"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shah Dalamadur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shara Ishvalda",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shen Gaoren",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shogun Ceanataur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shrieking Legiana",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter World"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Shrouded Nerscylla",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis",
+      "Poison",
+      "Noxious Poison",
+      "Webbed"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Silver Rathalos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Stun",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Silverwind Nargacuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Bleeding"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Snowbaron Lagombi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Snowman",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Somnacanth",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Sleep",
+      "Stun",
+      "Blastblight",
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Soulseer Mizutsune",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Bubble",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Steel Uragaan",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Soiled"
+    ],
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Stonefist Hermitaur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Terra Shogun Ceanataur",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Tetranadon",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Tetsucabra",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Fatigue"
+    ],
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Thunder Serpent Narwa",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Thunderlord Zinogre",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Stun"
+    ],
+    "weaknesses": [
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Tidal Najarala",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Tigerstripe Zamtrios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Paralysis"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Tigrex",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Ukanlos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Valstrax",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Generations Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Velkhana",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Ice"
+    ],
+    "ailments": [
+      "Iceblight"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter World",
+      "Monster Hunter Rise",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Velocidrome",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Vespoid Queen",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis",
+      "Defence Down"
+    ],
+    "weaknesses": [
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Violet Mizutsune",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Bubble",
+      "Fireblight"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Volvidon",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [
+      "Paralysis",
+      "Soiled"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter 3 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "White Fatalis",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Thunder",
+      "Dragon"
+    ],
+    "ailments": [
+      "Thunderblight",
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "White Monoblos",
+    "species": "unknown",
+    "type": "large",
+    "elements": [],
+    "ailments": [],
+    "weaknesses": [
+      "Thunder"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Wind Serpent Ibushi",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Dragon"
+    ],
+    "ailments": [
+      "Dragonblight"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter Rise"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Yama Tsukami",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "ailments": [],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Yian Garuga",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Fire"
+    ],
+    "ailments": [
+      "Fireblight",
+      "Poison"
+    ],
+    "weaknesses": [
+      "Water"
+    ],
+    "games": [
+      "Monster Hunter Freedom Unite",
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter World",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  },
+  {
+    "name": "Zamtrios",
+    "species": "unknown",
+    "type": "large",
+    "elements": [
+      "Water",
+      "Ice"
+    ],
+    "ailments": [
+      "Waterblight",
+      "Iceblight",
+      "Snowman"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "games": [
+      "Monster Hunter 4 Ultimate",
+      "Monster Hunter Generations Ultimate",
+      "Monster Hunter Stories",
+      "Monster Hunter Stories 2"
+    ],
+    "source": "mh-api.com"
+  }
+]
