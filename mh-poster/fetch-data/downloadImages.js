@@ -6,7 +6,34 @@ const path = require('path');
 
 // ── Prefijos de juego para buscar en CrimsonNynja/monster-hunter-DB ──
 // Orden de preferencia: Wilds > Iceborne > World > juegos anteriores
-const CRIMSONYNJA_PREFIXES = ['MHWilds', 'MHWI', 'MHW', 'MHR', 'MHXX', 'MH4U', 'MH3U'];
+const CRIMSONYNJA_PREFIXES = [
+  'MHWilds',  // Monster Hunter Wilds
+  'MHRS',     // Monster Hunter Rise: Sunbreak
+  'MHRise',   // Monster Hunter Rise
+  'MHR',      // Monster Hunter Rise (variante)
+  'MHWI',     // Monster Hunter World: Iceborne
+  'MHW',      // Monster Hunter World
+  'MHST',     // Monster Hunter Stories
+  'MHST2',    // Monster Hunter Stories 2: Wings of Ruin
+  'MHGU',     // Monster Hunter Generations Ultimate
+  'MHXX',     // Monster Hunter XX (JP, equivalente a GU)
+  'MHGen',    // Monster Hunter Generations
+  'MHX',      // Monster Hunter X (JP, equivalente a Gen)
+  'MH4U',     // Monster Hunter 4 Ultimate
+  'MH4G',     // Monster Hunter 4G (JP)
+  'MH4',      // Monster Hunter 4
+  'MH3U',     // Monster Hunter Tri Ultimate
+  'MH3G',     // Monster Hunter Tri G (JP)
+  'MH3',      // Monster Hunter Tri
+  'MHFU',     // Monster Hunter Freedom Unite
+  'MHP3',     // Monster Hunter Portable 3rd
+  'MHP2G',    // Monster Hunter Portable 2nd G
+  'MHP2',     // Monster Hunter Portable 2nd
+  'MHP',      // Monster Hunter Freedom (Portable 1)
+  'MH2',      // Monster Hunter 2
+  'MH1',      // Monster Hunter 1
+  'MH',       // Monster Hunter (genérico)
+];
 const CRIMSONYNJA_BASE = 'https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons';
 
 // ── Sanitizar nombre para Windows ────────────────────────
@@ -28,8 +55,9 @@ function toRepoName(name) {
 
 }
 
-// ── Intentar descargar una URL, devuelve true si OK ──────
+// ── Intentar descargar una URL, devuelve true si OK ────── > Esto es para la wiki fandom
 async function tryDownload(url, destPath, retries = 2) {
+  // console.log(`Intentando ${url}`)
   for (let i = 0; i < retries; i++) {
     try {
       const response = await axios.get(url, {
@@ -45,19 +73,13 @@ async function tryDownload(url, destPath, retries = 2) {
   return false;
 }
 
-// ── Fuente 1: mh-api.com → GitHub raw ────────────────────
-async function fromMhApi(monster, destPath) {
-  if (!monster.image_url) return false;
-  console.log(`  [mh-api]  ${monster.name}...`);
-  return await tryDownload(monster.image_url, destPath);
-}
-
 // ── Fuente 2: CrimsonNynja/monster-hunter-DB ─────────────
 // Prueba varios prefijos de juego hasta encontrar uno que exista
 async function fromCrimsonNynja(monster, destPath) {
   const repoName = toRepoName(monster.name);
   for (const prefix of CRIMSONYNJA_PREFIXES) {
     const url = `${CRIMSONYNJA_BASE}/${prefix}-${repoName}_Icon.png`;
+    console.log(`Intentando ${url}`)
     try {
       const response = await axios.get(url, {
         responseType: 'arraybuffer',
@@ -67,7 +89,20 @@ async function fromCrimsonNynja(monster, destPath) {
       console.log(`  [github]  ${monster.name} (${prefix})...`);
       return true;
     } catch {
-      // Ese prefijo no existe, intentamos el siguiente
+      // Probamos con esta otra posibilidad
+      const url = `${CRIMSONYNJA_BASE}/${prefix}-${repoName}-Head_Icon.png`;
+      console.log(`Intentando ${url}`)
+      try {
+      const response = await axios.get(url, {
+        responseType: 'arraybuffer',
+        timeout: 10000,
+      });
+      fs.writeFileSync(destPath, response.data);
+      console.log(`  [github]  ${monster.name} (${prefix})...`);
+      return true;
+      }catch{
+        // Ese prefijo no existe, intentamos el siguiente
+      }
     }
     await new Promise(r => setTimeout(r, 150));
   }
@@ -123,8 +158,7 @@ async function downloadAllImages() {
     // Intentar fuentes en orden
     let ok = false;
 
-    ok = await fromMhApi(monster, destPath);
-    if (!ok) ok = await fromCrimsonNynja(monster, destPath);
+    ok = await fromCrimsonNynja(monster, destPath);
     if (!ok) ok = await fromFandom(monster, destPath);
 
     if (ok) {
