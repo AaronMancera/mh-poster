@@ -3,10 +3,10 @@ const fs = require('fs');
 const path = require('path');
 
 const SOURCES = {
-  world: 'https://mhw-db.com/monsters',
-  wilds: 'https://wilds.mhdb.io/en/monsters',
-  //Esta api es un mojon -> Tengo que hacerlo con https://github.com/CrimsonNynja/monster-hunter-DB/tree/master
-  //saga:  'https://api.mh-api.com/v1/monsters',
+  world:   'https://mhw-db.com/monsters',
+  wilds:   'https://wilds.mhdb.io/en/monsters',
+  crimson: 'https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/monsters.json',
+
 };
 
 // // ── Mapa local JP → EN ────────────────────────────────────
@@ -52,74 +52,74 @@ const SOURCES = {
 //   'ガランゴルム': 'Garangolm',
 // };
 
-// ── Caché de traducciones en disco ────────────────────────
-const CACHE_PATH = path.join(__dirname, 'data', 'translation_cache.json');
+// // ── Caché de traducciones en disco ────────────────────────
+// const CACHE_PATH = path.join(__dirname, 'data', 'translation_cache.json');
 
-function loadCache() {
-  try {
-    if (fs.existsSync(CACHE_PATH)) {
-      return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
-    }
-  } catch { /* caché corrupta, empezamos de cero */ }
-  return {};
-}
+// function loadCache() {
+//   try {
+//     if (fs.existsSync(CACHE_PATH)) {
+//       return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
+//     }
+//   } catch { /* caché corrupta, empezamos de cero */ }
+//   return {};
+// }
 
-function saveCache(cache) {
-  try {
-    fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
-  } catch (err) {
-    console.warn('⚠ No se pudo guardar la caché de traducciones:', err.message);
-  }
-}
+// function saveCache(cache) {
+//   try {
+//     fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
+//   } catch (err) {
+//     console.warn('⚠ No se pudo guardar la caché de traducciones:', err.message);
+//   }
+// }
 
-function isJapanese(text) {
-  return /[\u3000-\u9fff]/.test(text);
-}
+// function isJapanese(text) {
+//   return /[\u3000-\u9fff]/.test(text);
+// }
 
-async function translateWithApi(text, cache) {
-  if (cache[text]) return cache[text];
-  try {
-    const { data } = await axios.get('https://api.mymemory.translated.net/get', {
-      params: { q: text, langpair: 'ja|en' },
-      timeout: 5000,
-    });
-    const translated = data?.responseData?.translatedText;
-    if (translated && translated !== text) {
-      cache[text] = translated;
-      return translated;
-    }
-  } catch { /* si falla la traducción, devolvemos el original */ }
-  return text;
-}
+// async function translateWithApi(text, cache) {
+//   if (cache[text]) return cache[text];
+//   try {
+//     const { data } = await axios.get('https://api.mymemory.translated.net/get', {
+//       params: { q: text, langpair: 'ja|en' },
+//       timeout: 5000,
+//     });
+//     const translated = data?.responseData?.translatedText;
+//     if (translated && translated !== text) {
+//       cache[text] = translated;
+//       return translated;
+//     }
+//   } catch { /* si falla la traducción, devolvemos el original */ }
+//   return text;
+// }
 
-async function translateMonsterNames(monsters) {
-  const cache = loadCache();
-  const results = [];
+// async function translateMonsterNames(monsters) {
+//   const cache = loadCache();
+//   const results = [];
 
-  for (const monster of monsters) {
-    if (!isJapanese(monster.name)) {
-      results.push(monster);
-      continue;
-    }
+//   for (const monster of monsters) {
+//     if (!isJapanese(monster.name)) {
+//       results.push(monster);
+//       continue;
+//     }
 
-    // Capa 1: mapa local
-    if (KNOWN_NAMES[monster.name]) {
-      console.log(`  [local] ${monster.name} → ${KNOWN_NAMES[monster.name]}`);
-      results.push({ ...monster, name: KNOWN_NAMES[monster.name], original_name_jp: monster.name });
-      continue;
-    }
+//     // Capa 1: mapa local
+//     if (KNOWN_NAMES[monster.name]) {
+//       console.log(`  [local] ${monster.name} → ${KNOWN_NAMES[monster.name]}`);
+//       results.push({ ...monster, name: KNOWN_NAMES[monster.name], original_name_jp: monster.name });
+//       continue;
+//     }
 
-    // Capa 2: MyMemory API
-    console.log(`  [api]   Traduciendo: ${monster.name}...`);
-    const translated = await translateWithApi(monster.name, cache);
-    console.log(`          → ${translated}`);
-    results.push({ ...monster, name: translated, original_name_jp: monster.name });
-    await new Promise(r => setTimeout(r, 300));
-  }
+//     // Capa 2: MyMemory API
+//     console.log(`  [api]   Traduciendo: ${monster.name}...`);
+//     const translated = await translateWithApi(monster.name, cache);
+//     console.log(`          → ${translated}`);
+//     results.push({ ...monster, name: translated, original_name_jp: monster.name });
+//     await new Promise(r => setTimeout(r, 300));
+//   }
 
-  saveCache(cache);
-  return results;
-}
+//   saveCache(cache);
+//   return results;
+// }
 
 // ── Normalización ─────────────────────────────────────────
 function normalizeWorld(m) {
@@ -128,7 +128,8 @@ function normalizeWorld(m) {
     species:    m.species,
     type:       m.type,
     elements:   m.elements || [],
-    weaknesses: (m.weaknesses || []).map(w => w.element),
+    ailments:   (m.ailments || []).map(a => a.name),
+    weaknesses: (m.weaknesses || []).map(w => w.element).filter(Boolean),
     games:      ['World'],
     source:     'mhw-db.com',
   };
@@ -140,23 +141,22 @@ function normalizeWilds(m) {
     species:    m.species || 'unknown',
     type:       m.kind || 'unknown',
     elements:   m.elements || [],
-    weaknesses: (m.weaknesses || [])
-      .map(w => w.element)
-      .filter(e => e !== null && e !== undefined && e !== ''),
+    ailments:   m.ailments || [],
+    weaknesses: (m.weaknesses || []).map(w => w.element).filter(Boolean),
     games:      ['Wilds'],
     source:     'wilds.mhdb.io',
   };
 }
 
-function normalizeSaga(m) {
+function normalizeCrimson(m) {
   return {
     name:       m.name || m.another_name,
-    species:    m.category || 'unknown',
-    type:       'unknown', // la API no distingue tamaño
-    elements:   [],
-    weaknesses: [],
-    games:      m.title || [],
-    image_url:  m.image_url || null,
+    species:    m.category || 'unknown', //en CrimsonNynja "type" es la especie
+    type:       m.isLarge ? 'large' : 'small',
+    elements:   m.elements || [],
+    ailments:   m.ailments || [],
+    weaknesses: m.weakness || [],      // CrimsonNynja usa "weakness" sin 's'
+    games:      (m.games || []).map(g => g.game),
     source:     'mh-api.com',
   };
 }
@@ -187,17 +187,17 @@ async function fetchAllMonsters() {
 
   // PASO 1 — Fetch
   console.log('\n[PASO 1] Obteniendo datos de las APIs...');
-  const [rawWorld, rawWilds, rawSaga] = await Promise.all([
+  const [rawWorld, rawWilds, rawCrimson] = await Promise.all([
     safeFetch(SOURCES.world, 'Monster Hunter World'),
     safeFetch(SOURCES.wilds, 'Monster Hunter Wilds'),
-    safeFetch(SOURCES.saga,  'Saga completa (Rise, GU, etc.)'),
+    safeFetch(SOURCES.crimson, 'Saga completa (CrimsonNynja/GitHub)'),
   ]);
 
   // PASO 2 — Inspección raw antes de filtrar
   console.log('\n[PASO 2] Datos raw recibidos:');
   console.log(`  World raw:  ${rawWorld.length} monstruos`);
   console.log(`  Wilds raw:  ${rawWilds.length} monstruos`);
-  console.log(`  Saga raw:   ${rawSaga.length} monstruos`);
+  console.log(`  Crimson raw: ${rawCrimson.length} monstruos`);
 
 //   Ver qué valores tiene el campo 'type' en Wilds
 //   if (rawWilds.length > 0) {
@@ -218,40 +218,45 @@ async function fetchAllMonsters() {
   console.log(`  World tras filtro 'large': ${worldMonsters.length}`);
 
   // Wilds: filtramos solo si el campo type existe y coincide, si no los incluimos todos
-  const wildsFiltered = rawWilds.filter(m => {
-    const t = m.type?.toLowerCase();
-    const pass = !t || t === 'large';
-    if (!pass) console.log(`  Wilds - descartado: ${m.name} (type: "${m.type}")`);
-    return pass;
-  });
   const wildsMonsters = rawWilds
     .filter(m => m.kind === 'large')
     .map(normalizeWilds);
-  console.log(`  Wilds tras filtro kind='large': ${wildsMonsters.length}`);
+  console.log(`  Wilds   → ${wildsMonsters.length} monstruos grandes`);
 
-  const sagaMonsters = rawSaga
-    .map(normalizeSaga); // sin filtro, pillamos todo
-  console.log(`  Saga sin filtro: ${sagaMonsters.length}`);
+  const crimsonMonsters = rawCrimson
+    .filter(m => m.isLarge === true)
+    .map(normalizeCrimson);
+  console.log(`  Crimson → ${crimsonMonsters.length} monstruos grandes`);
 
-  // PASO 4 — Traducción
-  let sagaTranslated = sagaMonsters;
-  if (sagaMonsters.length > 0) {
-    console.log('\n[PASO 4] Traduciendo nombres japoneses...');
-    sagaTranslated = await translateMonsterNames(sagaMonsters);
-  } else {
-    console.log('\n[PASO 4] Sin datos de saga, se omite la traducción.');
-  }
+  // // PASO 4 — Traducción
+  // let sagaTranslated = sagaMonsters;
+  // if (sagaMonsters.length > 0) {
+  //   console.log('\n[PASO 4] Traduciendo nombres japoneses...');
+  //   sagaTranslated = await translateMonsterNames(sagaMonsters);
+  // } else {
+  //   console.log('\n[PASO 4] Sin datos de saga, se omite la traducción.');
+  // }
 
   // PASO 5 — Deduplicar
   console.log('\n[PASO 5] Deduplicando...');
   const seen = new Set();
   const allMonsters = [];
 
-  for (const monster of [...worldMonsters, ...wildsMonsters, ...sagaTranslated]) {
+  for (const monster of [...worldMonsters, ...wildsMonsters, ...crimsonMonsters]) {
     const key = monster.name?.toLowerCase().trim();
     if (!key) continue;
+
     if (seen.has(key)) {
-      console.log(`  Duplicado saltado: ${monster.name} (${monster.source})`);
+      // Si el duplicado de CrimsonNynja tiene más juegos, los fusionamos
+      if (monster.source === 'crimsonnynja') {
+        const existing = allMonsters.find(m => m.name?.toLowerCase() === key);
+        if (existing) {
+          existing.games = [...new Set([...existing.games, ...monster.games])];
+          console.log(`  [fusionado] ${monster.name} → games actualizados`);
+        }
+      } else {
+        console.log(`  [duplicado saltado] ${monster.name} (${monster.source})`);
+      }
       continue;
     }
     seen.add(key);
@@ -267,7 +272,7 @@ async function fetchAllMonsters() {
   console.log('Resumen final:');
   console.log(`  World:        ${worldMonsters.length} monstruos`);
   console.log(`  Wilds:        ${wildsMonsters.length} monstruos`);
-  console.log(`  Saga:         ${sagaMonsters.length} monstruos (${sagaTranslated.filter(m => m.original_name_jp).length} traducidos)`);
+  console.log(`  Crimson saga: ${crimsonMonsters.length} monstruos`);
   console.log(`  Total únicos: ${allMonsters.length}`);
   console.log(`  Guardado en:  ${outputPath}`);
   console.log('─────────────────────────────');
