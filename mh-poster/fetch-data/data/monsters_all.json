@@ -1,0 +1,2889 @@
+[
+  {
+    "name": "Great Jagras",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "blast",
+      "paralysis",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "species": "bird wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "blast",
+      "paralysis",
+      "poison",
+      "sleep",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Pukei-Pukei",
+    "species": "bird wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Barroth",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Jyuratodus",
+    "species": "piscine wyvern",
+    "type": "large",
+    "elements": [
+      "water"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Anjanath",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Azure Rathalos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "dragon",
+      "ice",
+      "water",
+      "thunder",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Bazelgeuse",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Behemoth",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire",
+      "thunder"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "sleep",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Deviljho",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [
+      "dragon"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Diablos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Black Diablos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Dodogama",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Great Girros",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kirin",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kulve Taroth",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Kushala Daora",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Lavasioth",
+    "species": "piscine wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "water",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Legiana",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "ice"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "ice"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Lunastra",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Nergigante",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Odogaron",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Paolumu",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Radobaan",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "blast",
+      "paralysis",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Rathalos",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Rathian",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Pink Rathian",
+    "species": "flying wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Teostra",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Tzitzi-Ya-Ku",
+    "species": "bird wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Uragaan",
+    "species": "brute wyvern",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Vaal Hazak",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Xeno'jiiva",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "dragon"
+    ],
+    "weaknesses": [
+      "fire",
+      "water",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Zorah Magdaros",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      "water",
+      "thunder",
+      "ice",
+      "dragon"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Leshen",
+    "species": "relict",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Ancient Leshen",
+    "species": "relict",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Safi'jiiva",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "fire",
+      "dragon"
+    ],
+    "weaknesses": [
+      "dragon",
+      "ice",
+      "thunder",
+      "water",
+      "fire",
+      "dragon"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Stygian Zinogre",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "dragon"
+    ],
+    "weaknesses": [
+      "thunder",
+      "fire",
+      "water"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Rajang",
+    "species": "fanged beast",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      "blast",
+      "poison",
+      "sleep",
+      "paralysis",
+      "stun",
+      "ice",
+      "water"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Viper Tobi-Kadachi",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "thunder",
+      "ice",
+      "dragon",
+      "poison",
+      "sleep",
+      "paralysis",
+      "blast",
+      "stun"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Namielle",
+    "species": "elder dragon",
+    "type": "large",
+    "elements": [
+      "water",
+      "thunder"
+    ],
+    "weaknesses": [
+      "fire",
+      "dragon",
+      "ice"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Zinogre",
+    "species": "fanged wyvern",
+    "type": "large",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      "ice",
+      "water",
+      "fire",
+      "dragon"
+    ],
+    "games": [
+      "World"
+    ],
+    "source": "mhw-db.com"
+  },
+  {
+    "name": "Zoh Shia",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Doshaguma",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Rey Dau",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Lala Barina",
+    "species": "temnoceran",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Congalala",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Nerscylla",
+    "species": "temnoceran",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder",
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gore Magala",
+    "species": "demi-elder",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire",
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gravios",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water",
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Arkveld",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Quematrice",
+    "species": "brute-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Doshaguma",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Balahara",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Chatacabra",
+    "species": "amphibian",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Mizutsune",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Fulgur Anjanath",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Hirabami",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Yian Kut-Ku",
+    "species": "bird-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Rompopolo",
+    "species": "brute-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Arkveld",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Ajarakan",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gypceros",
+    "species": "bird-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Xu Wu",
+    "species": "cephalopod",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "ice"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Rathalos",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "dragon"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Uth Duna",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Jin Dahaad",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Nu Udra",
+    "species": "cephalopod",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Guardian Ebony Odogaron",
+    "species": "construct",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "water"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Blangonga",
+    "species": "fanged-beast",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Lagiacrus",
+    "species": "leviathan",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "fire"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Seregios",
+    "species": "flying-wyvern",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Omega Planetes",
+    "species": "machine",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [
+      "thunder"
+    ],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Gogmazios",
+    "species": "elder-dragon",
+    "type": "large",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "Wilds"
+    ],
+    "source": "wilds.mhdb.io"
+  },
+  {
+    "name": "Rioleia subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH3G",
+      "MH4",
+      "MH4G",
+      "MHW",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/2.png",
+    "source": "mh-api.com",
+    "original_name_jp": "リオレイア亜種"
+  },
+  {
+    "name": "Leorea Rare Species",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "P3rd",
+      "MH3G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHWI",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/3.png",
+    "source": "mh-api.com",
+    "original_name_jp": "リオレイア希少種"
+  },
+  {
+    "name": "Leorea, Princess of Purple Poison",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/4.png",
+    "source": "mh-api.com",
+    "original_name_jp": "紫毒姫リオレイア"
+  },
+  {
+    "name": "Nusi Liaorea",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/5.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ヌシ・リオレイア"
+  },
+  {
+    "name": "Lioleus subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH3G",
+      "MH4",
+      "MH4G",
+      "MHW",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/7.png",
+    "source": "mh-api.com",
+    "original_name_jp": "リオレウス亜種"
+  },
+  {
+    "name": "Rare species of Lioleus",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "P3rd",
+      "MH3G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHWI",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/8.png",
+    "source": "mh-api.com",
+    "original_name_jp": "リオレウス希少種"
+  },
+  {
+    "name": "Black Flame King Lioleus",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/9.png",
+    "source": "mh-api.com",
+    "original_name_jp": "黒炎王リオレウス"
+  },
+  {
+    "name": "Nusi Río Leus",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/10.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ヌシ・リオレウス"
+  },
+  {
+    "name": "Hrrrr",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/11.png",
+    "source": "mh-api.com",
+    "original_name_jp": "フルフル"
+  },
+  {
+    "name": "Fluffy subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/12.png",
+    "source": "mh-api.com",
+    "original_name_jp": "フルフル亜種"
+  },
+  {
+    "name": "Basalmos",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHXX",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/13.png",
+    "source": "mh-api.com",
+    "original_name_jp": "バサルモス"
+  },
+  {
+    "name": "Basalmos subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/14.png",
+    "source": "mh-api.com",
+    "original_name_jp": "バサルモス亜種"
+  },
+  {
+    "name": "Gravimos",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/15.png",
+    "source": "mh-api.com",
+    "original_name_jp": "グラビモス"
+  },
+  {
+    "name": "Gravimos subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/16.png",
+    "source": "mh-api.com",
+    "original_name_jp": "グラビモス亜種"
+  },
+  {
+    "name": "Monobross",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/17.png",
+    "source": "mh-api.com",
+    "original_name_jp": "モノブロス"
+  },
+  {
+    "name": "Monoblos subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/18.png",
+    "source": "mh-api.com",
+    "original_name_jp": "モノブロス亜種"
+  },
+  {
+    "name": "Diablos subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "P3rd",
+      "MH3G",
+      "MH4G",
+      "MHW",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/20.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ディアブロス亜種"
+  },
+  {
+    "name": "Demon Diablo",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/21.png",
+    "source": "mh-api.com",
+    "original_name_jp": "鏖魔ディアブロス"
+  },
+  {
+    "name": "Nushi Diablos",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/22.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ヌシ・ディアブロス"
+  },
+  {
+    "name": "Iyancook",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/23.png",
+    "source": "mh-api.com",
+    "original_name_jp": "イャンクック"
+  },
+  {
+    "name": "Iyancook subspecies",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/24.png",
+    "source": "mh-api.com",
+    "original_name_jp": "イャンクック亜種"
+  },
+  {
+    "name": "Guellos",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/25.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ゲリョス"
+  },
+  {
+    "name": "Guellos subspecies",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/26.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ゲリョス亜種"
+  },
+  {
+    "name": "Ganotototos",
+    "species": "魚竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH3G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/27.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ガノトトス"
+  },
+  {
+    "name": "Ganotototos subspecies",
+    "species": "魚竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH3G",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/28.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ガノトトス亜種"
+  },
+  {
+    "name": "Giraffe",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHW",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/29.png",
+    "source": "mh-api.com",
+    "original_name_jp": "キリン"
+  },
+  {
+    "name": "Giraffe subspecies",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/30.png",
+    "source": "mh-api.com",
+    "original_name_jp": "キリン亜種"
+  },
+  {
+    "name": "Laoshanlon",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/31.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ラオシャンロン"
+  },
+  {
+    "name": "Laoshanron subspecies",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/32.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ラオシャンロン亜種"
+  },
+  {
+    "name": "Black Dragon Miraboreas",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHXX",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/33.png",
+    "source": "mh-api.com",
+    "original_name_jp": "黒龍 ミラボレアス"
+  },
+  {
+    "name": "Red Dragon Miraboreas",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/34.png",
+    "source": "mh-api.com",
+    "original_name_jp": "紅龍 ミラボレアス"
+  },
+  {
+    "name": "Zulong Miraboreas",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/35.png",
+    "source": "mh-api.com",
+    "original_name_jp": "祖龍 ミラボレアス"
+  },
+  {
+    "name": "Dos Lampos",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/36.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドスランポス"
+  },
+  {
+    "name": "Dos Genepos",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/37.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドスゲネポス"
+  },
+  {
+    "name": "Dosuios",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/38.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドスイーオス"
+  },
+  {
+    "name": "Dosgaleos",
+    "species": "魚竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH",
+      "MHG",
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/39.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドスガレオス"
+  },
+  {
+    "name": "Iyangaruruga",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "MHX",
+      "MHXX",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/40.png",
+    "source": "mh-api.com",
+    "original_name_jp": "イャンガルルガ"
+  },
+  {
+    "name": "One-eyed Iyangaruruga",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/41.png",
+    "source": "mh-api.com",
+    "original_name_jp": "隻眼イャンガルルガ"
+  },
+  {
+    "name": "Wounded\nIyangaruruga",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHP",
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/42.png",
+    "source": "mh-api.com",
+    "original_name_jp": "傷ついた\nイャンガルルガ"
+  },
+  {
+    "name": "Thistle",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/43.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ダイミョウザザミ"
+  },
+  {
+    "name": "Thistle\nSubspecies",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/44.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ダイミョウザザミ\n亜種"
+  },
+  {
+    "name": "Lance Shattering\nThistle",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/45.png",
+    "source": "mh-api.com",
+    "original_name_jp": "矛砕\nダイミョウザザミ"
+  },
+  {
+    "name": "Shogun Gizami",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MHX",
+      "MHXX",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/46.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ショウグンギザミ"
+  },
+  {
+    "name": "Shogun Gizami\nSubspecies",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/47.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ショウグンギザミ\n亜種"
+  },
+  {
+    "name": "Armor Crack\nShogun Gizami",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/48.png",
+    "source": "mh-api.com",
+    "original_name_jp": "鎧裂\nショウグンギザミ"
+  },
+  {
+    "name": "Baba Conga",
+    "species": "牙獣種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/49.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ババコンガ"
+  },
+  {
+    "name": "Babaconga subspecies",
+    "species": "牙獣種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/50.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ババコンガ亜種"
+  },
+  {
+    "name": "Dodo Blango",
+    "species": "牙獣種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/51.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドドブランゴ"
+  },
+  {
+    "name": "Dodo Blango Subspecies",
+    "species": "牙獣種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/52.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドドブランゴ亜種"
+  },
+  {
+    "name": "Furious Rajan",
+    "species": "牙獣種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHWI",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/54.png",
+    "source": "mh-api.com",
+    "original_name_jp": "激昂したラージャン"
+  },
+  {
+    "name": "Rusted\nKuchardaola",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/56.png",
+    "source": "mh-api.com",
+    "original_name_jp": "錆びた\nクシャルダオラ"
+  },
+  {
+    "name": "Puppet Overcoming\nKuchardaola",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/57.png",
+    "source": "mh-api.com",
+    "original_name_jp": "傀異克服\nクシャルダオラ"
+  },
+  {
+    "name": "Onazuchi",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/58.png",
+    "source": "mh-api.com",
+    "original_name_jp": "オオナズチ"
+  },
+  {
+    "name": "Puppetry Overcoming the Onazuchi",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/59.png",
+    "source": "mh-api.com",
+    "original_name_jp": "傀異克服オオナズチ"
+  },
+  {
+    "name": "Nana Tescatri",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "MHW",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/60.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ナナ・テスカトリ"
+  },
+  {
+    "name": "Puppet Overcoming\nTheo Tescator",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/62.png",
+    "source": "mh-api.com",
+    "original_name_jp": "傀異克服\nテオ・テスカトル"
+  },
+  {
+    "name": "Schengaoren",
+    "species": "甲殻種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/63.png",
+    "source": "mh-api.com",
+    "original_name_jp": "シェンガオレン"
+  },
+  {
+    "name": "Yamatsukami",
+    "species": "古龍種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/64.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ヤマツカミ"
+  },
+  {
+    "name": "Dos Fango",
+    "species": "牙獣種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G",
+      "P3rd",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/65.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドスファンゴ"
+  },
+  {
+    "name": "King Cha Cha Boo",
+    "species": "獣人種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH2",
+      "P2nd",
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/66.png",
+    "source": "mh-api.com",
+    "original_name_jp": "キングチャチャブー"
+  },
+  {
+    "name": "Tigrex",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2nd",
+      "P2G",
+      "P3rd",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/67.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ティガレックス"
+  },
+  {
+    "name": "Tigarex subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH4",
+      "MH4G",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/68.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ティガレックス亜種"
+  },
+  {
+    "name": "Tigarex\nRare Species",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH4",
+      "MH4G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/69.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ティガレックス\n希少種"
+  },
+  {
+    "name": "Desolate claws\nTigarex",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/70.png",
+    "source": "mh-api.com",
+    "original_name_jp": "荒鉤爪\nティガレックス"
+  },
+  {
+    "name": "Akamtorum",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2nd",
+      "P2G",
+      "P3rd",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/71.png",
+    "source": "mh-api.com",
+    "original_name_jp": "アカムトルム"
+  },
+  {
+    "name": "Dos Gianos",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2nd",
+      "P2G",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/72.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ドスギアノス"
+  },
+  {
+    "name": "Hypnock",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/73.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ヒプノック"
+  },
+  {
+    "name": "Volganos",
+    "species": "魚竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "MHX",
+      "MHXX",
+      "MHW",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/74.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ヴォルガノス"
+  },
+  {
+    "name": "Nargacuga",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "P3rd",
+      "MH3G",
+      "MHX",
+      "MHXX",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/75.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ナルガクルガ"
+  },
+  {
+    "name": "Nargakuruga Subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/76.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ナルガクルガ亜種"
+  },
+  {
+    "name": "Nargakuruga Rare Species",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH3G",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/77.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ナルガクルガ希少種"
+  },
+  {
+    "name": "Gale Nargakuruga",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/78.png",
+    "source": "mh-api.com",
+    "original_name_jp": "白疾風ナルガクルガ"
+  },
+  {
+    "name": "Ukamulbas",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G",
+      "P3rd",
+      "MH4G",
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/79.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ウカムルバス"
+  },
+  {
+    "name": "Queen Langosta",
+    "species": "甲虫種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P2G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/80.png",
+    "source": "mh-api.com",
+    "original_name_jp": "クイーンランゴスタ"
+  },
+  {
+    "name": "Curpecco",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G",
+      "MH3"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/81.png",
+    "source": "mh-api.com",
+    "original_name_jp": "クルペッコ"
+  },
+  {
+    "name": "Krupecko Subspecies",
+    "species": "鳥竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/82.png",
+    "source": "mh-api.com",
+    "original_name_jp": "クルペッコ亜種"
+  },
+  {
+    "name": "Guiginebra",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G",
+      "MH3"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/83.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ギギネブラ"
+  },
+  {
+    "name": "Guiginebra subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/84.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ギギネブラ亜種"
+  },
+  {
+    "name": "Barioth",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G",
+      "MH3",
+      "MHXX",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/85.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ベリオロス"
+  },
+  {
+    "name": "Bellios subspecies",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/86.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ベリオロス亜種"
+  },
+  {
+    "name": "Icy Blade Belior",
+    "species": "飛竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/87.png",
+    "source": "mh-api.com",
+    "original_name_jp": "氷刃佩くベリオロス"
+  },
+  {
+    "name": "Eat Anger\nIbiljo",
+    "species": "獣竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH3G",
+      "MH4",
+      "MH4G",
+      "MHX",
+      "MHXX",
+      "MHWI"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/89.png",
+    "source": "mh-api.com",
+    "original_name_jp": "怒り喰らう\nイビルジョー"
+  },
+  {
+    "name": "Borboros",
+    "species": "獣竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G",
+      "MH3",
+      "MHXX",
+      "MHW",
+      "MHWI",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/90.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ボルボロス"
+  },
+  {
+    "name": "Borboros subspecies",
+    "species": "獣竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/91.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ボルボロス亜種"
+  },
+  {
+    "name": "Vulagankin subspecies",
+    "species": "獣竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/93.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ウラガンキン亜種"
+  },
+  {
+    "name": "Houmai Vulagankin",
+    "species": "獣竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MHX",
+      "MHXX"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/94.png",
+    "source": "mh-api.com",
+    "original_name_jp": "宝纏ウラガンキン"
+  },
+  {
+    "name": "Ragiaculus subsp.",
+    "species": "海竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/96.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ラギアクルス亜種"
+  },
+  {
+    "name": "Rare Ragiaculus species",
+    "species": "海竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/97.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ラギアクルス希少種"
+  },
+  {
+    "name": "Roaldros",
+    "species": "海竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G",
+      "MH3",
+      "MHX",
+      "MHXX",
+      "MHR",
+      "MHRS"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/98.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ロアルドロス"
+  },
+  {
+    "name": "Roaldoros subspecies",
+    "species": "海竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/99.png",
+    "source": "mh-api.com",
+    "original_name_jp": "ロアルドロス亜種"
+  },
+  {
+    "name": "Chanagable",
+    "species": "海竜種",
+    "type": "unknown",
+    "elements": [],
+    "weaknesses": [],
+    "games": [
+      "P3rd",
+      "MH3G",
+      "MH3"
+    ],
+    "image_url": "https://raw.githubusercontent.com/o-ga09/MH-API/main/data/monster/100.png",
+    "source": "mh-api.com",
+    "original_name_jp": "チャナガブル"
+  }
+]

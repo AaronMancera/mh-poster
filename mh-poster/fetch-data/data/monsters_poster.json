@@ -1,0 +1,2176 @@
+[
+  {
+    "id": 17,
+    "name": "Great Jagras",
+    "species": "fanged wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Kulu-Ya-Ku",
+    "species": "bird wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Pukei-Pukei",
+    "species": "bird wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Barroth",
+    "species": "brute wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": "covered in mud"
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Jyuratodus",
+    "species": "piscine wyvern",
+    "elements": [
+      "water"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": "covered in mud"
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Tobi-Kadachi",
+    "species": "fanged wyvern",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Anjanath",
+    "species": "brute wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Azure Rathalos",
+    "species": "flying wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bazelgeuse",
+    "species": "flying wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Behemoth",
+    "species": "elder dragon",
+    "elements": [
+      "fire",
+      "thunder"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Deviljho",
+    "species": "brute wyvern",
+    "elements": [
+      "dragon"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Diablos",
+    "species": "flying wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Black Diablos",
+    "species": "flying wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dodogama",
+    "species": "fanged wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Great Girros",
+    "species": "fanged wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Kirin",
+    "species": "elder dragon",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Kulve Taroth",
+    "species": "elder dragon",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": "covered in gold"
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": "covered in gold"
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": "covered in gold"
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Kushala Daora",
+    "species": "elder dragon",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Lavasioth",
+    "species": "piscine wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": "hardened"
+      },
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": "hardened"
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Legiana",
+    "species": "flying wyvern",
+    "elements": [
+      "ice"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Lunastra",
+    "species": "elder dragon",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Nergigante",
+    "species": "elder dragon",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Odogaron",
+    "species": "fanged wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Paolumu",
+    "species": "flying wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Radobaan",
+    "species": "brute wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Rathalos",
+    "species": "flying wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Rathian",
+    "species": "flying wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Pink Rathian",
+    "species": "flying wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Teostra",
+    "species": "elder dragon",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Tzitzi-Ya-Ku",
+    "species": "bird wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Uragaan",
+    "species": "brute wyvern",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Vaal Hazak",
+    "species": "elder dragon",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Xeno'jiiva",
+    "species": "elder dragon",
+    "elements": [
+      "dragon"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Zorah Magdaros",
+    "species": "elder dragon",
+    "elements": [
+      "fire"
+    ],
+    "weaknesses": [
+      {
+        "element": "water",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Leshen",
+    "species": "relict",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Ancient Leshen",
+    "species": "relict",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Safi'jiiva",
+    "species": "elder dragon",
+    "elements": [
+      "fire",
+      "dragon"
+    ],
+    "weaknesses": [
+      {
+        "element": "dragon",
+        "stars": 3,
+        "condition": "Elderseal"
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Stygian Zinogre",
+    "species": "fanged wyvern",
+    "elements": [
+      "dragon"
+    ],
+    "weaknesses": [
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "fire",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Rajang",
+    "species": "fanged beast",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Viper Tobi-Kadachi",
+    "species": "fanged wyvern",
+    "elements": [],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "thunder",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "paralysis",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Namielle",
+    "species": "elder dragon",
+    "elements": [
+      "water",
+      "thunder"
+    ],
+    "weaknesses": [
+      {
+        "element": "fire",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "ice",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Zinogre",
+    "species": "fanged wyvern",
+    "elements": [
+      "thunder"
+    ],
+    "weaknesses": [
+      {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+      },
+      {
+        "element": "water",
+        "stars": 2,
+        "condition": null
+      },
+      {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+      },
+      {
+        "element": "dragon",
+        "stars": 1,
+        "condition": null
+      }
+    ]
+  }
+]
