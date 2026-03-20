@@ -148,68 +148,70 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
 
     # PASO 4 — Tipografía y composición
     print(f'[4/5] Componiendo póster...')
-
-    # Fuentes — pon tus TTF en assets/fonts/
-    # Recomendado: MedievalSharp.ttf o Cinzel-Bold.ttf para el título
     font_title    = load_font('Cinzel-Bold.ttf',    size=int(POSTER_W * 0.095))
-    font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.042))
+    font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.038))
 
-    color_title    = (60,  35,  10,  255)   # marrón oscuro
-    color_subtitle = (100, 60,  20,  240)   # marrón medio
-    color_shadow   = (30,  15,   5,  120)   # sombra suave
+    color_title    = (60,  35,  10,  255)
+    color_subtitle = (100, 60,  20,  240)
+    color_shadow   = (30,  15,   5,  120)
 
-    # Márgenes
-    margin_top  = int(POSTER_H * 0.07)
-    padding     = int(POSTER_W * 0.08)
+    # Zona de texto: 28% superior del póster
+    text_zone_h = int(POSTER_H * 0.28)
 
-    # Título (nombre del monstruo)
-    title_h = draw_text_with_shadow(
+    # Calcular alturas de texto
+    title_bbox   = draw.textbbox((0, 0), name, font=font_title)
+    title_h      = title_bbox[3] - title_bbox[1]
+
+    if subtitle:
+        sub_bbox     = draw.textbbox((0, 0), subtitle, font=font_subtitle)
+        sub_h        = sub_bbox[3] - sub_bbox[1]
+        gap          = int(POSTER_H * 0.018)
+        total_text_h = title_h + gap + sub_h
+    else:
+        sub_h        = 0
+        gap          = 0
+        total_text_h = title_h
+
+    # Centrar bloque de texto verticalmente en la zona superior
+    text_start_y = (text_zone_h - total_text_h) // 2
+
+    # Título
+    draw_text_with_shadow(
         draw, name, font_title,
-        y=margin_top,
+        y=text_start_y,
         canvas_w=POSTER_W,
         color=color_title,
         shadow_color=color_shadow,
         offset=8
     )
 
-    # Subtítulo (juego opcional)
-    current_y = margin_top + title_h + int(POSTER_H * 0.018)
+    # Subtítulo
     if subtitle:
         draw_text_with_shadow(
             draw, subtitle, font_subtitle,
-            y=current_y,
+            y=text_start_y + title_h + gap,
             canvas_w=POSTER_W,
             color=color_subtitle,
             shadow_color=color_shadow,
             offset=4
         )
-        current_y += int(font_subtitle.size * 1.4)
 
-    # Separador decorativo
-    sep_y  = current_y + int(POSTER_H * 0.015)
-    sep_x1 = padding * 2
-    sep_x2 = POSTER_W - padding * 2
-    draw.line([(sep_x1, sep_y), (sep_x2, sep_y)], fill=color_title, width=4)
-
-    # Icono centrado en la parte inferior
+    # Icono: ocupa el área restante bajo el texto
     if icon:
-        icon_area_top    = sep_y + int(POSTER_H * 0.04)
-        icon_area_bottom = POSTER_H - int(POSTER_H * 0.07)
-        icon_area_h      = icon_area_bottom - icon_area_top
-        icon_area_w      = POSTER_W - padding * 2
+        padding     = int(POSTER_W * 0.10)
+        icon_top    = text_zone_h + int(POSTER_H * 0.02)
+        icon_bottom = POSTER_H    - int(POSTER_H * 0.06)
+        icon_area_w = POSTER_W - padding * 2
+        icon_area_h = icon_bottom - icon_top
 
-        # Escalar icono manteniendo proporción
         icon_ratio = min(icon_area_w / icon.width, icon_area_h / icon.height)
         new_w = int(icon.width  * icon_ratio)
         new_h = int(icon.height * icon_ratio)
         icon  = icon.resize((new_w, new_h), Image.LANCZOS)
+        icon  = apply_sepia_tint(icon, intensity=0.3)
 
-        # Tinte sepia para integrar con el fondo
-        icon = apply_sepia_tint(icon, intensity=0.3)
-
-        # Centrar icono horizontalmente y alinearlo verticalmente al centro del área
         icon_x = (POSTER_W - new_w) // 2
-        icon_y = icon_area_top + (icon_area_h - new_h) // 2
+        icon_y = icon_top + (icon_area_h - new_h) // 2
 
         poster.paste(icon, (icon_x, icon_y), icon)
 
@@ -219,25 +221,39 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     game_tag  = f'_{show_game.lower().replace(" ", "_")}' if show_game else ''
 
     if output_format == 'pdf':
-        from reportlab.lib.pagesizes import A4
-        from reportlab.pdfgen import canvas as rl_canvas
-
-        png_path = os.path.join(OUTPUT_DIR, f'{safe_name}{game_tag}_tmp.png')
         pdf_path = os.path.join(OUTPUT_DIR, f'{safe_name}{game_tag}.pdf')
+        tmp_path = os.path.join(OUTPUT_DIR, f'{safe_name}{game_tag}_tmp.png')
 
-        poster_rgb = poster.convert('RGB')
-        poster_rgb.save(png_path, dpi=(DPI, DPI))
+        try:
+            # Guardar PNG temporal
+            poster_rgb = poster.convert('RGB')
+            poster_rgb.save(tmp_path, dpi=(DPI, DPI))
 
-        c = rl_canvas.Canvas(pdf_path, pagesize=A4)
-        c.drawImage(png_path, 0, 0, width=A4[0], height=A4[1])
-        c.save()
-        os.remove(png_path)
-        print(f'\n✓ PDF generado: {pdf_path}')
+            # Convertir a PDF con Pillow directamente
+            poster_rgb.save(pdf_path, 'PDF', resolution=DPI)
+
+            print(f'\n✓ PDF generado: {pdf_path}')
+
+        except Exception as e:
+            print(f'\n✗ Error al exportar PDF: {e}')
+            raise
+
+        finally:
+            # Limpiar temporal siempre, haya error o no
+            if os.path.exists(tmp_path):
+                os.remove(tmp_path)
+                print(f'  Temporal eliminado: {tmp_path}')
 
     else:  # PNG por defecto
         png_path = os.path.join(OUTPUT_DIR, f'{safe_name}{game_tag}.png')
-        poster.convert('RGB').save(png_path, dpi=(DPI, DPI))
-        print(f'\n✓ PNG generado: {png_path}')
+        try:
+            poster.convert('RGB').save(png_path, dpi=(DPI, DPI))
+            print(f'\n✓ PNG generado: {png_path}')
+        except Exception as e:
+            print(f'\n✗ Error al exportar PNG: {e}')
+            if os.path.exists(png_path):
+                os.remove(png_path)
+            raise
 
 # ── CLI ───────────────────────────────────────────────────
 if __name__ == '__main__':
