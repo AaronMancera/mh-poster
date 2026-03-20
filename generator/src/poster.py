@@ -91,16 +91,57 @@ def draw_centered_text(draw, text, font, y, canvas_w, color):
     x     = (canvas_w - tw) // 2
     draw.text((x, y), text, font=font, fill=color)
     return bbox[3] - bbox[1]  # devuelve altura del texto
-
+# Este para el Cinzel-Bold
+# def draw_text_with_shadow(draw, text, font, y, canvas_w, color, shadow_color, offset=6):
+#     """Dibuja texto con sombra para efecto vintage."""
+#     bbox = draw.textbbox((0, 0), text, font=font)
+#     tw   = bbox[2] - bbox[0]
+#     x    = (canvas_w - tw) // 2
+#     # Sombra
+#     draw.text((x + offset, y + offset), text, font=font, fill=shadow_color)
+#     # Texto principal
+#     draw.text((x, y), text, font=font, fill=color)
+#     return bbox[3] - bbox[1]
+# OptimusPrincepsSemiBold
 def draw_text_with_shadow(draw, text, font, y, canvas_w, color, shadow_color, offset=6):
-    """Dibuja texto con sombra para efecto vintage."""
-    bbox = draw.textbbox((0, 0), text, font=font)
-    tw   = bbox[2] - bbox[0]
-    x    = (canvas_w - tw) // 2
-    # Sombra
-    draw.text((x + offset, y + offset), text, font=font, fill=shadow_color)
-    # Texto principal
-    draw.text((x, y), text, font=font, fill=color)
+    bbox   = draw.textbbox((0, 0), text, font=font)
+    tw     = bbox[2] - bbox[0]
+    ascent = bbox[1]
+    x      = (canvas_w - tw) // 2
+    y_real = y - ascent
+
+    draw.text((x + offset, y_real + offset), text, font=font, fill=shadow_color)
+    draw.text((x, y_real),                   text, font=font, fill=color)
+    return bbox[3] - bbox[1]
+# Este para el Cinzel-ExtraBold
+# def draw_text_bold_effect(draw, text, font, y, canvas_w, color, shadow_color, offset=5, passes=2):
+#     """Dibuja texto con sombra y grosor extra simulado."""
+#     bbox = draw.textbbox((0, 0), text, font=font)
+#     tw   = bbox[2] - bbox[0]
+#     x    = (canvas_w - tw) // 2
+#     # Sombra
+#     for dx in range(passes):
+#         for dy in range(passes):
+#             draw.text((x + offset + dx, y + offset + dy), text, font=font, fill=shadow_color)
+#     # Texto principal con grosor extra
+#     for dx in range(passes):
+#         for dy in range(passes):
+#             draw.text((x + dx, y + dy), text, font=font, fill=color)
+#     return bbox[3] - bbox[1]
+# OptimusPrincepsSemiBold
+def draw_text_bold_effect(draw, text, font, y, canvas_w, color, shadow_color, offset=5, passes=2):
+    bbox    = draw.textbbox((0, 0), text, font=font)
+    tw      = bbox[2] - bbox[0]
+    ascent  = bbox[1]  # puede ser negativo — lo compensamos
+    x       = (canvas_w - tw) // 2
+    y_real  = y - ascent  # corrige el corte superior
+
+    for dx in range(passes):
+        for dy in range(passes):
+            draw.text((x + offset + dx, y_real + offset + dy), text, font=font, fill=shadow_color)
+    for dx in range(passes):
+        for dy in range(passes):
+            draw.text((x + dx, y_real + dy), text, font=font, fill=color)
     return bbox[3] - bbox[1]
 
 #def apply_sepia_tint(img: Image.Image, intensity=0.35) -> Image.Image: -> Solo funciona en Python 3.10+. Como estoy trabajando en Python 3.8.0 me como los mocos
@@ -128,6 +169,8 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
         games = monster.get('games', [])
         match = next((g for g in games if show_game.lower() in g.lower()), None)
         subtitle = match if match else show_game
+        # Asegura mixed_case en el subtítulo — primera letra de cada palabra en mayúscula
+        subtitle = subtitle.title()
 
     # PASO 2 — Icono del monstruo
     print(f'[2/5] Descargando icono...')
@@ -148,12 +191,21 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
 
     # PASO 4 — Tipografía y composición
     print(f'[4/5] Componiendo póster...')
-    font_title    = load_font('Cinzel-Bold.ttf',    size=int(POSTER_W * 0.095))
-    font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.038))
+    # font_title    = load_font('Cinzel-Bold.ttf',    size=int(POSTER_W * 0.095))
+    # font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.038))
 
-    color_title    = (60,  35,  10,  255)
-    color_subtitle = (100, 60,  20,  240)
-    color_shadow   = (30,  15,   5,  120)
+    # color_title    = (60,  35,  10,  255)
+    # color_subtitle = (100, 60,  20,  240)
+    # color_shadow   = (30,  15,   5,  120)
+    # font_title    = load_font('Cinzel-Bold.ttf',    size=int(POSTER_W * 0.095))
+    # font_title = load_font('Cinzel-ExtraBold.ttf', size=int(POSTER_W * 0.095))
+    font_title = load_font('OptimusPrincepsSemiBold.ttf', size=int(POSTER_W * 0.092))
+    # font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.036))
+    font_subtitle = load_font('OptimusPrinceps.ttf', size=int(POSTER_W * 0.036))
+
+    color_title    = (28,  18,   8,  255)
+    color_subtitle = (45,  28,  10,  255)
+    color_shadow   = (180, 140,  80,  90)
 
     # Zona de texto: 28% superior del póster
     text_zone_h = int(POSTER_H * 0.28)
@@ -176,16 +228,43 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     text_start_y = (text_zone_h - total_text_h) // 2
 
     # Título
-    draw_text_with_shadow(
-        draw, name, font_title,
-        y=text_start_y,
-        canvas_w=POSTER_W,
-        color=color_title,
-        shadow_color=color_shadow,
-        offset=8
+    # draw_text_with_shadow(
+    #     draw, name, font_title,
+    #     y=text_start_y,
+    #     canvas_w=POSTER_W,
+    #     color=color_title,
+    #     shadow_color=color_shadow,
+    #     offset=8
+    # )
+    # draw_text_with_shadow(
+    #     draw, name, font_title,
+    #     y=text_start_y,
+    #     canvas_w=POSTER_W,
+    #     color=color_title,
+    #     shadow_color=color_shadow,
+    #     offset=5
+    # )
+    draw_text_bold_effect(
+    draw, name, font_title,
+    y=text_start_y,
+    canvas_w=POSTER_W,
+    color=color_title,
+    shadow_color=color_shadow,
+    offset=5,
+    passes=2
     )
+    
 
     # Subtítulo
+    # if subtitle:
+    #     draw_text_with_shadow(
+    #         draw, subtitle, font_subtitle,
+    #         y=text_start_y + title_h + gap,
+    #         canvas_w=POSTER_W,
+    #         color=color_subtitle,
+    #         shadow_color=color_shadow,
+    #         offset=4
+    #     )
     if subtitle:
         draw_text_with_shadow(
             draw, subtitle, font_subtitle,
@@ -193,7 +272,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
             canvas_w=POSTER_W,
             color=color_subtitle,
             shadow_color=color_shadow,
-            offset=4
+            offset=3
         )
 
     # Icono: ocupa el área restante bajo el texto
