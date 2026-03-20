@@ -13,6 +13,7 @@ const IMAGES_DIR    = path.join(__dirname,'..', 'template', 'monster');
 // ── Middleware ────────────────────────────────────────────
 app.use(cors());
 app.use(express.json());
+app.set('port', PORT || 3000); //-> Para configurar el puerto en el que esta trabajando. Automaticamente pilla el 3000 o +X que este disponible 
 
 // ── Helpers ───────────────────────────────────────────────
 function loadMonsters() {
@@ -35,18 +36,18 @@ function sanitizeFilename(name) {
 function enrichMonster(monster, req) {
   const filename = sanitizeFilename(monster.name) + '.png';
   const imagePath = path.join(IMAGES_DIR, filename);
-  // DEBUG — eliminar una vez confirmado
-  console.log(`[enrichMonster] ${monster.name}`);
-  console.log(`  filename:  ${filename}`);
-  console.log(`  imagePath: ${imagePath}`);
-  console.log(`  exists:    ${fs.existsSync(imagePath)}`);
+  // // DEBUG — eliminar una vez confirmado
+  // console.log(`[enrichMonster] ${monster.name}`);
+  // console.log(`  filename:  ${filename}`);
+  // console.log(`  imagePath: ${imagePath}`);
+  // console.log(`  exists:    ${fs.existsSync(imagePath)}`);
   //Esto fallla porque el nombre de la imagen es diferente a cuando lo buscas. 
 
   return {
     ...monster,
     image_url: fs.existsSync(imagePath)
       ? `${req.protocol}://${req.get('host')}/monsters/${encodeURIComponent(monster.name)}/image`
-      : 'null',
+      : `${req.protocol}://${req.get('host')}/monsters/unknown_monster/image`,
   };
 }
 
@@ -127,10 +128,13 @@ app.get('/monsters/:identifier', (req, res) => {
 app.get('/monsters/:name/image', (req, res) => {
   try {
     const filename = sanitizeFilename(decodeURIComponent(req.params.name)) + '.png';
-    const imagePath = path.join(IMAGES_DIR, filename);
+    let imagePath = path.join(IMAGES_DIR, filename);
 
+    // if (!fs.existsSync(imagePath)) {
+    //   return res.status(404).json({ error: `Imagen no encontrada: ${filename}` });
+    // }
     if (!fs.existsSync(imagePath)) {
-      return res.status(404).json({ error: `Imagen no encontrada: ${filename}` });
+      imagePath = path.join(IMAGES_DIR, 'unknown_monster.png');
     }
 
     res.setHeader('Content-Type', 'image/png');
