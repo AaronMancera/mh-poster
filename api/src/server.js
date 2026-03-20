@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // ── Rutas de datos ────────────────────────────────────────
 const MONSTERS_PATH = path.join(__dirname,'..', 'data', 'monsters_all.json');
-const IMAGES_DIR    = path.join(__dirname,'..', 'templates', 'monster');
+const IMAGES_DIR    = path.join(__dirname,'..', 'template', 'monster');
 
 // ── Middleware ────────────────────────────────────────────
 app.use(cors());
