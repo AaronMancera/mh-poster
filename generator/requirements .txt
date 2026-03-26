@@ -1,6 +1,7 @@
 Pillow>=10.0.0
 requests>=2.31.0
 python-dotenv>=1.0.0
+numpy>=1.24.0
 # el error de ReportLab con Python 3.8 lo solucionamos usando Pillow directamente para exportar el PDF (más simple y sin dependencia de ReportLab), 
 #y añadimos limpieza del temporal en caso de error:
 # reportlab>=4.0.0
