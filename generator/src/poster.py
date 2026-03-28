@@ -153,24 +153,34 @@ def apply_sepia_tint(img: Image.Image, intensity: float = 0.35) -> Image.Image:
     b = b.point(lambda i: min(255, int(i * (1 - intensity * 0.2))))
     return Image.merge('RGBA', (r, g, b, a))
 
+#TODO: Pulir esto porque puede dar un toque de estampado muy bueno pero no le pillo
 def apply_icon_blend(icon: Image.Image) -> Image.Image:
-    """Solo difumina bordes, sin alterar colores del icono."""
+    """Difumina ligeramente los 4 bordes del icono de forma natural."""
     import numpy as np
     w, h = icon.size
 
-    # Máscara radial — centro opaco, bordes transparentes
-    mask      = Image.new('L', (w, h), 0)
-    mask_draw = ImageDraw.Draw(mask)
-    steps     = 80
-    for i in range(steps):
-        ratio   = i / steps
-        opacity = int(255 * ratio)
-        shrink  = int(min(w, h) * (1 - ratio) * 0.5)
-        mask_draw.ellipse(
-            [shrink, shrink, w - shrink, h - shrink],
-            fill=opacity
-        )
-    mask = mask.filter(ImageFilter.GaussianBlur(radius=int(min(w, h) * 0.06)))
+    # Crear máscara blanca (completamente opaca)
+    mask = Image.new('L', (w, h), 255)
+    mask_arr = np.array(mask, dtype=np.float32)
+
+    # Cuántos píxeles desde cada borde se aplica el fade
+    # Sube para más difuminado, baja para menos
+    fade_px = int(min(w, h) * 0.035)  # 6% del tamaño — prueba entre 0.02 y 0.10
+
+    for i in range(fade_px):
+        alpha = int(255 * (i / fade_px))  # de 0 (borde) a 255 (interior)
+        # Borde superior
+        mask_arr[i, :]      = np.minimum(mask_arr[i, :],      alpha)
+        # Borde inferior
+        mask_arr[h-1-i, :]  = np.minimum(mask_arr[h-1-i, :], alpha)
+        # Borde izquierdo
+        mask_arr[:, i]      = np.minimum(mask_arr[:, i],      alpha)
+        # Borde derecho
+        mask_arr[:, w-1-i]  = np.minimum(mask_arr[:, w-1-i], alpha)
+
+    # Suavizar muy levemente para que no haya línea dura
+    mask = Image.fromarray(mask_arr.astype('uint8'))
+    mask = mask.filter(ImageFilter.GaussianBlur(radius=int(min(w, h) * 0.01)))
 
     r, g, b, a = icon.split()
     new_alpha  = Image.fromarray(
@@ -279,8 +289,8 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
         new_w = int(icon.width  * icon_ratio)
         new_h = int(icon.height * icon_ratio)
         icon  = icon.resize((new_w, new_h), Image.LANCZOS)
-        # icon  = apply_sepia_tint(icon, intensity=-0.25) #TODO: Muy mejorable el filtro sepia que tendre que investigar mas. La idea es hacer que por alrededor con gausse o algo parece que se le han quitado cachitos del dibujo y se una al color del background
-        # icon = apply_icon_blend(icon)
+        icon  = apply_sepia_tint(icon, intensity=-0.25) #TODO: Muy mejorable el filtro sepia que tendre que investigar mas. La idea es hacer que por alrededor con gausse o algo parece que se le han quitado cachitos del dibujo y se una al color del background
+        icon = apply_icon_blend(icon)
 
         icon_x = (POSTER_W - new_w) // 2
         icon_y = icon_top
