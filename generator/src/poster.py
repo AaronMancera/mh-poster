@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 import requests
-from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from io import BytesIO
 from dotenv import dotenv_values
 from typing import Optional
@@ -10,7 +10,7 @@ from typing import Optional
 # ── Configuración ─────────────────────────────────────────
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
 config     = dotenv_values(os.path.join(BASE_DIR, '..', '.env'))
-# TODO: Para que quiero el .env si por aqui paso la url de la api?
+
 API_BASE   = config.get('API_URL', 'http://localhost:3000')
 ASSETS_DIR = os.path.join(BASE_DIR, '..', 'assets')
 OUTPUT_DIR = os.path.join(BASE_DIR, '..', 'output')
@@ -92,28 +92,6 @@ def draw_centered_text(draw, text, font, y, canvas_w, color):
     x     = (canvas_w - tw) // 2
     draw.text((x, y), text, font=font, fill=color)
     return bbox[3] - bbox[1]  # devuelve altura del texto
-# Este para el Cinzel-Bold
-# def draw_text_with_shadow(draw, text, font, y, canvas_w, color, shadow_color, offset=6):
-#     """Dibuja texto con sombra para efecto vintage."""
-#     bbox = draw.textbbox((0, 0), text, font=font)
-#     tw   = bbox[2] - bbox[0]
-#     x    = (canvas_w - tw) // 2
-#     # Sombra
-#     draw.text((x + offset, y + offset), text, font=font, fill=shadow_color)
-#     # Texto principal
-#     draw.text((x, y), text, font=font, fill=color)
-#     return bbox[3] - bbox[1]
-# OptimusPrincepsSemiBold
-# def draw_text_with_shadow(draw, text, font, y, canvas_w, color, shadow_color, offset=6):
-#     bbox   = draw.textbbox((0, 0), text, font=font)
-#     tw     = bbox[2] - bbox[0]
-#     ascent = bbox[1]
-#     x      = (canvas_w - tw) // 2
-#     y_real = y - ascent
-
-#     draw.text((x + offset, y_real + offset), text, font=font, fill=shadow_color)
-#     draw.text((x, y_real),                   text, font=font, fill=color)
-#     return bbox[3] - bbox[1]
 
 def draw_text_with_shadow(draw, text, font, y, canvas_w, color, shadow_color, offset=6, letter_spacing=0):
     if letter_spacing == 0:
@@ -139,22 +117,6 @@ def draw_text_with_shadow(draw, text, font, y, canvas_w, color, shadow_color, of
             draw.text((cx, y_real),                   ch, font=font, fill=color)
             cx += ch_w + letter_spacing
         return bbox[3] - bbox[1]
-# Este para el Cinzel-ExtraBold
-# def draw_text_bold_effect(draw, text, font, y, canvas_w, color, shadow_color, offset=5, passes=2):
-#     """Dibuja texto con sombra y grosor extra simulado."""
-#     bbox = draw.textbbox((0, 0), text, font=font)
-#     tw   = bbox[2] - bbox[0]
-#     x    = (canvas_w - tw) // 2
-#     # Sombra
-#     for dx in range(passes):
-#         for dy in range(passes):
-#             draw.text((x + offset + dx, y + offset + dy), text, font=font, fill=shadow_color)
-#     # Texto principal con grosor extra
-#     for dx in range(passes):
-#         for dy in range(passes):
-#             draw.text((x + dx, y + dy), text, font=font, fill=color)
-#     return bbox[3] - bbox[1]
-# OptimusPrincepsSemiBold
 def draw_text_bold_effect(draw, text, font, y, canvas_w, color, shadow_color, offset=5, passes=2, letter_spacing=0):
     """Dibuja texto con sombra, grosor extra y espaciado entre letras."""
     # Calcular ancho total con espaciado
@@ -183,7 +145,6 @@ def draw_text_bold_effect(draw, text, font, y, canvas_w, color, shadow_color, of
 
     return bbox[3] - bbox[1]
 
-#def apply_sepia_tint(img: Image.Image, intensity=0.35) -> Image.Image: -> Solo funciona en Python 3.10+. Como estoy trabajando en Python 3.8.0 me como los mocos
 def apply_sepia_tint(img: Image.Image, intensity: float = 0.35) -> Image.Image:
     """Aplica un tinte sepia suave a la imagen del icono para que encaje con el fondo."""
     r, g, b, a = img.split()
@@ -217,7 +178,6 @@ def apply_icon_blend(icon: Image.Image) -> Image.Image:
     )
     return Image.merge('RGBA', (r, g, b, new_alpha))
 
-#def generate_poster(monster_name: str, show_game: str | None, output_format: str): -> Solo funciona en Python 3.10+. Como estoy trabajando en Python 3.8.0 me como los mocos
 def generate_poster(monster_name: str, show_game: Optional[str], output_format: str):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -254,17 +214,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
 
     # PASO 4 — Tipografía y composición
     print(f'[4/5] Componiendo póster...')
-    # font_title    = load_font('Cinzel-Bold.ttf',    size=int(POSTER_W * 0.095))
-    # font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.038))
-
-    # color_title    = (60,  35,  10,  255)
-    # color_subtitle = (100, 60,  20,  240)
-    # color_shadow   = (30,  15,   5,  120)
-    # font_title    = load_font('Cinzel-Bold.ttf',    size=int(POSTER_W * 0.095))
-    # font_title = load_font('Cinzel-ExtraBold.ttf', size=int(POSTER_W * 0.095))
-    #TODO: Falta que entre cada letra se deje un espacio de 0.2 px mas o menos
     font_title = load_font('OptimusPrincepsSemiBold.ttf', size=int(POSTER_W * 0.062))
-    # font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.036))
     font_subtitle = load_font('Cinzel-ExtraBold.ttf', size=int(POSTER_W * 0.026))
 
     color_title    = (28,  18,   8,  255)
@@ -291,23 +241,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     # Centrar bloque de texto verticalmente en la zona superior
     text_start_y = (text_zone_h - total_text_h) // 2
 
-    # Título
-    # draw_text_with_shadow(
-    #     draw, name, font_title,
-    #     y=text_start_y,
-    #     canvas_w=POSTER_W,
-    #     color=color_title,
-    #     shadow_color=color_shadow,
-    #     offset=8
-    # )
-    # draw_text_with_shadow(
-    #     draw, name, font_title,
-    #     y=text_start_y,
-    #     canvas_w=POSTER_W,
-    #     color=color_title,
-    #     shadow_color=color_shadow,
-    #     offset=5
-    # )
+    # Print Título
     draw_text_bold_effect(
     draw, name, font_title,
     y=text_start_y,
@@ -320,16 +254,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     )
     
 
-    # Subtítulo
-    # if subtitle:
-    #     draw_text_with_shadow(
-    #         draw, subtitle, font_subtitle,
-    #         y=text_start_y + title_h + gap,
-    #         canvas_w=POSTER_W,
-    #         color=color_subtitle,
-    #         shadow_color=color_shadow,
-    #         offset=4
-    #     )
+    # Print Subtítulo
     if subtitle:
         draw_text_with_shadow(
             draw, subtitle, font_subtitle,
@@ -341,7 +266,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
             letter_spacing=6    # prueba entre 4 y 12 para el efecto versalita
         )
 
-    # Icono: ocupa el área restante bajo el texto
+    # Print Icono: ocupa el área restante bajo el texto
     if icon:
         # padding     = int(POSTER_W * 0.10)
         padding     = int(POSTER_W * 0.06) # Sube para que el icono sea más estrecho, baja para que ocupe más ancho
@@ -362,7 +287,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
 
         poster.paste(icon, (icon_x, icon_y), icon)
 
-    # PASO 5 — Exportar
+    # PASO 5 — Export to PDF or PNG
     print(f'[5/5] Exportando...')
     safe_name = monster_name.lower().replace(' ', '_').replace("'", '')
     game_tag  = f'_{show_game.lower().replace(" ", "_")}' if show_game else ''
@@ -386,7 +311,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
             raise
 
         finally:
-            # Limpiar temporal siempre, haya error o no
+            #FIX: Limpiar temporal siempre, haya error o no
             if os.path.exists(tmp_path):
                 os.remove(tmp_path)
                 print(f'  Temporal eliminado: {tmp_path}')
