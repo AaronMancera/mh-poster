@@ -265,7 +265,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     #TODO: Falta que entre cada letra se deje un espacio de 0.2 px mas o menos
     font_title = load_font('OptimusPrincepsSemiBold.ttf', size=int(POSTER_W * 0.062))
     # font_subtitle = load_font('Cinzel-Regular.ttf', size=int(POSTER_W * 0.036))
-    font_subtitle = load_font('OptimusPrinceps.ttf', size=int(POSTER_W * 0.016))
+    font_subtitle = load_font('Cinzel-ExtraBold.ttf', size=int(POSTER_W * 0.026))
 
     color_title    = (28,  18,   8,  255)
     color_subtitle = (45,  28,  10,  255)
@@ -344,18 +344,18 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     # Icono: ocupa el área restante bajo el texto
     if icon:
         # padding     = int(POSTER_W * 0.10)
-        padding     = int(POSTER_W * 0.04) # Sube para que el icono sea más estrecho, baja para que ocupe más ancho
-        icon_top    = text_zone_h - int(POSTER_H * 0.02) # El icono empieza justo tras la zona de texto + 2% de margen (~70px) #TODO: Ha quedado de alto muy echado hacia abajo, lo cual no coincide con el posicionamiento de la imagen original y no coincido solucionarlo
-        icon_bottom = POSTER_H    - int(POSTER_H * 0.02) # Mas margen abajo, Sube para más margen abajo, baja para que llegue más al borde
-        icon_area_w = POSTER_W - padding * 2
-        icon_area_h = icon_bottom - icon_top
+        padding     = int(POSTER_W * 0.06) # Sube para que el icono sea más estrecho, baja para que ocupe más ancho
+        icon_top    = text_zone_h - int(POSTER_H * -0.02) #NOTE: El icono empieza justo tras la zona de texto + 2% de margen (~70px) Por lo que ahora queda en la altura del texto para abajo que queremos
+        icon_bottom = POSTER_H    - int(POSTER_H * 0.02) #NOTE: Mas margen abajo, Sube para más margen abajo haciendo que se estreche la imagen en el eje Y
+        icon_area_w = POSTER_W - padding * 2.1 #NOTE: Padding en todas las direcciones. Con esta esta supèr centrado
+        icon_area_h = icon_bottom - icon_top 
 
-        icon_ratio = min(icon_area_w / icon.width, icon_area_h / icon.height)
+        icon_ratio = min(icon_area_w / icon.width, icon_area_h / icon.height) #NOTE: Escalado de la imagen respecto al area asignada. No queremos que se vea en 144p
         new_w = int(icon.width  * icon_ratio)
         new_h = int(icon.height * icon_ratio)
         icon  = icon.resize((new_w, new_h), Image.LANCZOS)
         # icon  = apply_sepia_tint(icon, intensity=-0.25) #TODO: Muy mejorable el filtro sepia que tendre que investigar mas. La idea es hacer que por alrededor con gausse o algo parece que se le han quitado cachitos del dibujo y se una al color del background
-        icon = apply_icon_blend(icon)
+        # icon = apply_icon_blend(icon)
 
         icon_x = (POSTER_W - new_w) // 2
         icon_y = icon_top
