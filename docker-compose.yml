@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: mh-api
+    ports:
+      - "3000:3000"
+    volumes:
+      # Volumen para persistir datos — si actualizas monsters_all.json
+      # no necesitas reconstruir la imagen
+      - ./api/data:/app/data
+      - ./api/template:/app/template
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+    restart: unless-stopped
+
+  generator:
+    build:
+      context: ./generator
+      dockerfile: Dockerfile
+    container_name: mh-generator
+    volumes:
+      # Output se monta en local para acceder a los pósters generados
+      - ./generator/output:/app/output
+    environment:
+      API_URL: http://api:3000
+    # El generator no tiene servidor propio, se ejecuta bajo demanda
+    # Por eso depends_on api y no tiene ports
+    depends_on:
+      - api
+    # Se mantiene vivo para poder ejecutar comandos
+    stdin_open: true
+    tty: true
