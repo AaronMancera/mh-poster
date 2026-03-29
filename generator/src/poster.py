@@ -280,7 +280,7 @@ def generate_poster(monster_name: str, show_game: Optional[str], output_format: 
     if icon:
         # padding     = int(POSTER_W * 0.10)
         padding     = int(POSTER_W * 0.06) # Sube para que el icono sea más estrecho, baja para que ocupe más ancho
-        icon_top    = text_zone_h - int(POSTER_H * -0.02) #NOTE: El icono empieza justo tras la zona de texto + 2% de margen (~70px) Por lo que ahora queda en la altura del texto para abajo que queremos
+        icon_top    = text_zone_h - int(POSTER_H * 0.03) #NOTE: El icono empieza justo tras la zona de texto + 2% de margen (~70px) Por lo que ahora queda en la altura del texto para abajo que queremos
         icon_bottom = POSTER_H    - int(POSTER_H * 0.02) #NOTE: Mas margen abajo, Sube para más margen abajo haciendo que se estreche la imagen en el eje Y
         icon_area_w = POSTER_W - padding * 2.1 #NOTE: Padding en todas las direcciones. Con esta esta supèr centrado
         icon_area_h = icon_bottom - icon_top 
