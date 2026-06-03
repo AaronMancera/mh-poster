@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
-        🐉 MH Poster Generator
+        MH Poster Generator
       </Link>
     </nav>
   )

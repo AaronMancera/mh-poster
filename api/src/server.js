@@ -1,20 +1,20 @@
 const express = require('express');
-const fs      = require('fs');
-const path    = require('path');
-const cors    = require('cors');
+const fs = require('fs');
+const path = require('path');
+const cors = require('cors');
 const { spawn } = require('child_process');
 
-const app  = express();
+const app = express();
 const PORT = 3000;
 
 // ── Rutas de datos ────────────────────────────────────────
-const MONSTERS_PATH = path.join(__dirname,'..', 'data', 'monsters_all.json');
-const IMAGES_DIR    = path.join(__dirname,'..', 'template', 'monster');
+const MONSTERS_PATH = path.join(__dirname, '..', 'data', 'monsters_all.json');
+const IMAGES_DIR = path.join(__dirname, '..', 'template', 'monster');
 
 // ── Rutas del generator ───────────────────────────────────
-const GENERATOR_DIR  = path.join(__dirname, '..', '..', 'generator');
-const POSTER_SCRIPT  = path.join(GENERATOR_DIR, 'src', 'poster.py');
-const OUTPUT_DIR     = path.join(GENERATOR_DIR, 'output');
+const GENERATOR_DIR = path.join(__dirname, '..', '..', 'generator');
+const POSTER_SCRIPT = path.join(GENERATOR_DIR, 'src', 'poster.py');
+const OUTPUT_DIR = path.join(GENERATOR_DIR, 'output');
 
 // ── Middleware ────────────────────────────────────────────
 app.use(cors());
@@ -74,9 +74,25 @@ app.get('/monsters', (req, res) => {
       );
     }
 
+    if (req.query.search) {
+      const q = req.query.search.toLowerCase();
+      monsters = monsters.filter(m =>
+        m.name?.toLowerCase().includes(q) ||
+        m.species?.toLowerCase().includes(q)
+      );
+    }
+    // Paginación
+    const limit = parseInt(req.query.limit) || 20;
+    const offset = parseInt(req.query.offset) || 0;
+    const total = monsters.length;
+    const paged = monsters.slice(offset, offset + limit)
+
     res.json({
-      total: monsters.length,
-      monsters: monsters.map(m => enrichMonster(m, req)),
+      total,
+      limit,
+      offset,
+      hasMore: offset + limit < total,
+      monsters: paged.map(m => enrichMonster(m, req)),
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -116,7 +132,7 @@ app.get('/monsters/:identifier', (req, res) => {
 
     const monster = isNaN(identifier)
       ? monsters.find(m => m.name?.toLowerCase() === identifier.toLowerCase()) ||
-        monsters.find(m => m.name?.toLowerCase().includes(identifier.toLowerCase()))
+      monsters.find(m => m.name?.toLowerCase().includes(identifier.toLowerCase()))
       : monsters.find((_, i) => i + 1 === parseInt(identifier));
 
     if (!monster) {
@@ -163,12 +179,12 @@ app.post('/monsters', (req, res) => {
 
     const newMonster = {
       name,
-      species:    species    || 'unknown',
-      type:       type       || 'unknown',
-      elements:   elements   || [],
+      species: species || 'unknown',
+      type: type || 'unknown',
+      elements: elements || [],
       weaknesses: weaknesses || [],
-      games:      games      || [],
-      source:     source     || 'manual',
+      games: games || [],
+      source: source || 'manual',
     };
 
     monsters.push(newMonster);
@@ -250,15 +266,15 @@ app.post('/posters/generate', (req, res) => {
 
   // Construir argumentos — igual que CLI: poster.py "Rathalos" --game "World" --format png
   const args = [POSTER_SCRIPT, monster];
-  if (game)   args.push('--game',   game);
+  if (game) args.push('--game', game);
   args.push('--format', format);
 
   console.log(`[POSTER] Ejecutando: ${PYTHON} ${args.join(' ')}`);
 
   const proc = spawn(PYTHON, args, {
-  cwd: GENERATOR_DIR,
-  env: { ...process.env, PYTHONIOENCODING: 'utf-8' } //La solución más limpia es forzar UTF-8 al hacer el spawn
-});
+    cwd: GENERATOR_DIR,
+    env: { ...process.env, PYTHONIOENCODING: 'utf-8' } //La solución más limpia es forzar UTF-8 al hacer el spawn
+  });
 
   let stderr = '';
   proc.stdout.on('data', d => process.stdout.write(`[POSTER] ${d}`));
@@ -271,7 +287,7 @@ app.post('/posters/generate', (req, res) => {
 
     // Replicar exactamente la lógica de poster.py líneas 302-303
     const safeName = monster.toLowerCase().replace(/\s+/g, '_').replace(/'/g, '');
-    const gameTag  = game ? `_${game.toLowerCase().replace(/\s+/g, '_')}` : '';
+    const gameTag = game ? `_${game.toLowerCase().replace(/\s+/g, '_')}` : '';
     const filename = `${safeName}${gameTag}.${format}`;
     const filepath = path.join(OUTPUT_DIR, filename);
 

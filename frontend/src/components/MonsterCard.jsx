@@ -1,12 +1,27 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { getMonsterImageUrl } from '../services/api'
 
 function MonsterCard({ monster }) {
   const navigate    = useNavigate()
-  const imageUrl    = getMonsterImageUrl(monster.name)
   const fallbackUrl = getMonsterImageUrl('unknown_monster')
-  const [src, setSrc] = useState(fallbackUrl)  // empieza con el fallback
+  const [src, setSrc] = useState(fallbackUrl)
+
+  useEffect(() => {
+    const realUrl = getMonsterImageUrl(monster.name)
+    const img     = new Image()
+
+    img.onload  = () => setSrc(realUrl)   // solo cambia el src cuando ya está lista
+    img.onerror = () => {}                // ya mostramos el fallback, no hacemos nada
+
+    img.src = realUrl
+
+    // Cleanup — evita que el callback dispare si el componente se desmonta
+    return () => {
+      img.onload  = null
+      img.onerror = null
+    }
+  }, [monster.name])
 
   return (
     <div
@@ -19,14 +34,6 @@ function MonsterCard({ monster }) {
           alt={monster.name}
           loading="lazy"
           decoding="async"
-          onLoad={() => {
-            // Cuando el fallback termina de cargar, pide la imagen real
-            if (src === fallbackUrl) setSrc(imageUrl)
-          }}
-          onError={() => {
-            // Si la imagen real falla, vuelve al fallback sin bucle
-            if (src !== fallbackUrl) setSrc(fallbackUrl)
-          }}
         />
       </div>
       <div className="monster-card-info">

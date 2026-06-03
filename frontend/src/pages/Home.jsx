@@ -1,30 +1,53 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { getMonsters } from '../services/api'
 import MonsterCard from '../components/MonsterCard'
 
+const PAGE_SIZE = 20
+
 function Home() {
   const [monsters, setMonsters] = useState([])
-  const [filtered, setFiltered] = useState([])
   const [search,   setSearch]   = useState('')
-  const [loading,  setLoading]  = useState(true)
+  const [offset,   setOffset]   = useState(0)
+  const [hasMore,  setHasMore]  = useState(true)
+  const [loading,  setLoading]  = useState(false)
   const [error,    setError]    = useState(null)
+  const searchTimer = useRef(null)
 
+  // Función de fetch directa — sin useCallback
+  async function fetchPage(currentOffset, currentSearch, reset) {
+    if (loading) return
+    setLoading(true)
+    try {
+      const params = { limit: PAGE_SIZE, offset: currentOffset }
+      if (currentSearch) params.search = currentSearch
+
+      const data = await getMonsters(params)
+
+      setMonsters(prev => reset ? data.monsters : [...prev, ...data.monsters])
+      setHasMore(data.hasMore)
+      setOffset(currentOffset + PAGE_SIZE)
+    } catch {
+      setError('No se puede conectar con la API. ¿Está corriendo el servidor?')
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  // Carga inicial
   useEffect(() => {
-    getMonsters()
-      .then(data => { setMonsters(data.monsters); setFiltered(data.monsters) })
-      .catch(() => setError('No se puede conectar con la API. ¿Está corriendo el servidor?'))
-      .finally(() => setLoading(false))
+    fetchPage(0, '', true)
   }, [])
 
+  // Buscador con debounce
   useEffect(() => {
-    const q = search.toLowerCase()
-    setFiltered(monsters.filter(m =>
-      m.name.toLowerCase().includes(q) || m.species?.toLowerCase().includes(q)
-    ))
-  }, [search, monsters])
+    clearTimeout(searchTimer.current)
+    searchTimer.current = setTimeout(() => {
+      fetchPage(0, search, true)
+    }, 400)
+    return () => clearTimeout(searchTimer.current)
+  }, [search])
 
-  if (loading) return <div className="status">Cargando monstruos...</div>
-  if (error)   return <div className="status error">{error}</div>
+  if (error) return <div className="status error">{error}</div>
 
   return (
     <div className="home">
@@ -40,15 +63,36 @@ function Home() {
               onChange={e => setSearch(e.target.value)}
             />
           </div>
-          <span className="results-count">{filtered.length} resultados</span>
+          <span className="results-count">{monsters.length} cargados</span>
         </div>
       </div>
       <div className="divider" />
+
       <div className="monster-grid">
-        {filtered.map(monster => (
+        {monsters.map(monster => (
           <MonsterCard key={monster.name} monster={monster} />
         ))}
+        {monsters.length === 0 && !loading && (
+          <p className="status">No se encontraron monstruos</p>
+        )}
       </div>
+
+      {loading && <p className="status">Cargando...</p>}
+
+      {hasMore && !loading && (
+        <div className="load-more-wrapper">
+          <button
+            className="load-more-btn"
+            onClick={() => fetchPage(offset, search, false)}
+          >
+            Cargar más
+          </button>
+        </div>
+      )}
+
+      {!hasMore && monsters.length > 0 && (
+        <p className="end-message">— {monsters.length} monstruos cargados —</p>
+      )}
     </div>
   )
 }

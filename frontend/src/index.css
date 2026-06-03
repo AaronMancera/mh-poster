@@ -441,3 +441,29 @@ body {
   .monster-grid { grid-template-columns: 1fr; }
   .main-content { padding: 0 1rem; }
 }
+
+/* ── Footer  LOAD MORE ─────────────────────────────────────────────── */
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0;
+}
+
+.load-more-btn {
+  padding: 0.75rem 2.5rem;
+  background: transparent;
+  border: 1px solid var(--border-hover);
+  border-radius: var(--radius);
+  color: var(--accent);
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.load-more-btn:hover {
+  background: rgba(201,168,76,0.08);
+  transform: translateY(-1px);
+}
