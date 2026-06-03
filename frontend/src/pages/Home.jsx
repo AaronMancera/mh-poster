@@ -11,22 +11,16 @@ function Home() {
 
   useEffect(() => {
     getMonsters()
-      .then(data => {
-        setMonsters(data.monsters)
-        setFiltered(data.monsters)
-      })
+      .then(data => { setMonsters(data.monsters); setFiltered(data.monsters) })
       .catch(() => setError('No se puede conectar con la API. ¿Está corriendo el servidor?'))
       .finally(() => setLoading(false))
   }, [])
 
   useEffect(() => {
     const q = search.toLowerCase()
-    setFiltered(
-      monsters.filter(m =>
-        m.name.toLowerCase().includes(q) ||
-        m.species?.toLowerCase().includes(q)
-      )
-    )
+    setFiltered(monsters.filter(m =>
+      m.name.toLowerCase().includes(q) || m.species?.toLowerCase().includes(q)
+    ))
   }, [search, monsters])
 
   if (loading) return <div className="status">Cargando monstruos...</div>
@@ -34,15 +28,22 @@ function Home() {
 
   return (
     <div className="home">
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Buscar monstruo o especie..."
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-        />
-        <span className="results-count">{filtered.length} monstruos</span>
+      <div className="search-section">
+        <span className="search-title">Catálogo de monstruos</span>
+        <div className="search-row">
+          <div className="search-input-wrapper">
+            <span className="search-icon">⚔</span>
+            <input
+              type="text"
+              placeholder="Buscar por nombre o especie..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+          </div>
+          <span className="results-count">{filtered.length} resultados</span>
+        </div>
       </div>
+      <div className="divider" />
       <div className="monster-grid">
         {filtered.map(monster => (
           <MonsterCard key={monster.name} monster={monster} />
