@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: mh-poster-api
+    runtime: node
+    rootDir: api
+    buildCommand: npm install && pip3 install --break-system-packages Pillow requests python-dotenv numpy && node src/scripts/downloadImages.js
+    startCommand: node src/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PYTHONIOENCODING
+        value: utf-8
+      - key: API_URL
+        value: https://mh-poster-api.onrender.com
