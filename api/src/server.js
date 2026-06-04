@@ -284,16 +284,17 @@ args.push('--format', format);
 
 // ── Arrancar servidor ─────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\nServidor MH API corriendo en http://localhost:${PORT}`);
-  console.log('\nEndpoints disponibles:');
-  console.log(`  GET    http://localhost:${PORT}/monsters`);
-  console.log(`  GET    http://localhost:${PORT}/monsters/:identifier`);
-  console.log(`  GET    http://localhost:${PORT}/monsters/game/:game`);
-  console.log(`  GET    http://localhost:${PORT}/monsters/:name/image`);
-  console.log(`  POST   http://localhost:${PORT}/monsters`);
-  console.log(`  PUT    http://localhost:${PORT}/monsters/:name`);
-  console.log(`  DELETE http://localhost:${PORT}/monsters/:name`);
-  console.log(`  POST   http://localhost:${PORT}/posters/generate\n`);
+  conselo.log(`Servidor MH API corriendo`);
+  // console.log(`\nServidor MH API corriendo en http://localhost:${PORT}`);
+  // console.log('\nEndpoints disponibles:');
+  // console.log(`  GET    http://localhost:${PORT}/monsters`);
+  // console.log(`  GET    http://localhost:${PORT}/monsters/:identifier`);
+  // console.log(`  GET    http://localhost:${PORT}/monsters/game/:game`);
+  // console.log(`  GET    http://localhost:${PORT}/monsters/:name/image`);
+  // console.log(`  POST   http://localhost:${PORT}/monsters`);
+  // console.log(`  PUT    http://localhost:${PORT}/monsters/:name`);
+  // console.log(`  DELETE http://localhost:${PORT}/monsters/:name`);
+  // console.log(`  POST   http://localhost:${PORT}/posters/generate\n`);
 });
 
 
