@@ -244,8 +244,9 @@ app.post('/posters/generate', (req, res) => {
   const { monster, game, format = 'png' } = req.body;
   if (!monster) return res.status(400).json({ error: 'El campo monster es obligatorio' });
 
-  const PYTHON = path.join(__dirname, '..', '..', '.venv', 'Scripts', 'python.exe');
-  const args   = [POSTER_SCRIPT, monster, '--stdout'];  // ← añadir --stdout
+const PYTHON = process.platform === 'win32'
+  ? path.join(__dirname, '..', '..', '.venv', 'Scripts', 'python.exe')
+  : 'python3';  const args   = [POSTER_SCRIPT, monster, '--stdout'];  // ← añadir --stdout
   if (game)   args.push('--game',   game);
   args.push('--format', format);
 
