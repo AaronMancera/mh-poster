@@ -19,4 +19,20 @@ export const getMonstersByGame = (game) =>
 export const getMonsterImageUrl = (name) =>
   `${API_BASE}/monsters/${encodeURIComponent(name)}/image`;
 
+const imageCache = new Map()
+
+export function preloadImage(url) {
+  if (imageCache.has(url)) return imageCache.get(url)
+
+  const promise = new Promise((resolve, reject) => {
+    const img = new Image()
+    img.onload = () => resolve(url)
+    img.onerror = () => reject()
+    img.src = url
+  })
+
+  imageCache.set(url, promise)
+  return promise
+}
+
 export default api;

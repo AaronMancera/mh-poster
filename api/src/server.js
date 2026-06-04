@@ -239,6 +239,47 @@ app.delete('/monsters/:name', (req, res) => {
   }
 });
 
+// ── POST /posters/generate ────────────────────────────────
+app.post('/posters/generate', (req, res) => {
+  const { monster, game, format = 'png' } = req.body;
+  if (!monster) return res.status(400).json({ error: 'El campo monster es obligatorio' });
+
+  const PYTHON = path.join(__dirname, '..', '..', '.venv', 'Scripts', 'python.exe');
+  const args   = [POSTER_SCRIPT, monster, '--stdout'];  // ← añadir --stdout
+  if (game)   args.push('--game',   game);
+  args.push('--format', format);
+
+  console.log(`[POSTER] Ejecutando: ${PYTHON} ${args.join(' ')}`);
+
+  const proc   = spawn(PYTHON, args, {
+    cwd: GENERATOR_DIR,
+    env: { ...process.env, PYTHONIOENCODING: 'utf-8' }
+  });
+
+  const chunks = [];
+  let stderr   = '';
+
+  proc.stdout.on('data', chunk => chunks.push(chunk));   // captura bytes del poster
+  proc.stderr.on('data', d    => { stderr += d; process.stderr.write(`[POSTER] ${d}`); });
+
+  proc.on('close', code => {
+    if (code !== 0) {
+      return res.status(500).json({ error: 'Error al generar el póster', detail: stderr });
+    }
+
+    const buffer   = Buffer.concat(chunks);
+    const mimeType = format === 'pdf' ? 'application/pdf' : 'image/png';
+    const safeName = monster.toLowerCase().replace(/\s+/g, '_').replace(/'/g, '');
+    const gameTag  = game ? `_${game.toLowerCase().replace(/\s+/g, '_')}` : '';
+    const filename = `${safeName}${gameTag}.${format}`;
+
+    res.setHeader('Content-Type', mimeType);
+    res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+    res.setHeader('Content-Length', buffer.length);
+    res.end(buffer);
+  });
+});
+
 // ── Arrancar servidor ─────────────────────────────────────
 app.listen(PORT, () => {
   console.log(`\nServidor MH API corriendo en http://localhost:${PORT}`);
@@ -253,56 +294,57 @@ app.listen(PORT, () => {
   console.log(`  POST   http://localhost:${PORT}/posters/generate\n`);
 });
 
-// ── POST /posters/generate ────────────────────────────────
-app.post('/posters/generate', (req, res) => {
-  const { monster, game, format = 'png' } = req.body;
-  // console.log(`[POSTER] Solicitud de generación: monster='${monster}', game='${game}', format='${format}'`);
-  // {"monster":"Great Jagras","game":null,"format":"png"}
 
-  if (!monster) return res.status(400).json({ error: 'El campo monster es obligatorio' });
 
-  // Ejecutable Python del venv en la raíz del proyecto
-  const PYTHON = path.join(__dirname, '..', '..', '.venv', 'Scripts', 'python.exe');
+// app.post('/posters/generate', (req, res) => {
+//   const { monster, game, format = 'png' } = req.body;
+//   // console.log(`[POSTER] Solicitud de generación: monster='${monster}', game='${game}', format='${format}'`);
+//   // {"monster":"Great Jagras","game":null,"format":"png"}
 
-  // Construir argumentos — igual que CLI: poster.py "Rathalos" --game "World" --format png
-  const args = [POSTER_SCRIPT, monster];
-  if (game) args.push('--game', game);
-  args.push('--format', format);
+//   if (!monster) return res.status(400).json({ error: 'El campo monster es obligatorio' });
 
-  console.log(`[POSTER] Ejecutando: ${PYTHON} ${args.join(' ')}`);
+//   // Ejecutable Python del venv en la raíz del proyecto
+//   const PYTHON = path.join(__dirname, '..', '..', '.venv', 'Scripts', 'python.exe');
 
-  const proc = spawn(PYTHON, args, {
-    cwd: GENERATOR_DIR,
-    env: { ...process.env, PYTHONIOENCODING: 'utf-8' } //La solución más limpia es forzar UTF-8 al hacer el spawn
-  });
+//   // Construir argumentos — igual que CLI: poster.py "Rathalos" --game "World" --format png
+//   const args = [POSTER_SCRIPT, monster];
+//   if (game) args.push('--game', game);
+//   args.push('--format', format);
 
-  let stderr = '';
-  proc.stdout.on('data', d => process.stdout.write(`[POSTER] ${d}`));
-  proc.stderr.on('data', d => { stderr += d; process.stderr.write(`[POSTER ERR] ${d}`); });
+//   console.log(`[POSTER] Ejecutando: ${PYTHON} ${args.join(' ')}`);
 
-  proc.on('close', code => {
-    if (code !== 0) {
-      return res.status(500).json({ error: 'Error al generar el póster', detail: stderr });
-    }
+//   const proc = spawn(PYTHON, args, {
+//     cwd: GENERATOR_DIR,
+//     env: { ...process.env, PYTHONIOENCODING: 'utf-8' } //La solución más limpia es forzar UTF-8 al hacer el spawn
+//   });
 
-    // Replicar exactamente la lógica de poster.py líneas 302-303
-    const safeName = monster.toLowerCase().replace(/\s+/g, '_').replace(/'/g, '');
-    const gameTag = game ? `_${game.toLowerCase().replace(/\s+/g, '_')}` : '';
-    const filename = `${safeName}${gameTag}.${format}`;
-    const filepath = path.join(OUTPUT_DIR, filename);
+//   let stderr = '';
+//   proc.stdout.on('data', d => process.stdout.write(`[POSTER] ${d}`));
+//   proc.stderr.on('data', d => { stderr += d; process.stderr.write(`[POSTER ERR] ${d}`); });
 
-    console.log(`[POSTER] Buscando archivo: ${filepath}`);
+//   proc.on('close', code => {
+//     if (code !== 0) {
+//       return res.status(500).json({ error: 'Error al generar el póster', detail: stderr });
+//     }
 
-    if (!fs.existsSync(filepath)) {
-      return res.status(404).json({ error: `Archivo generado no encontrado: ${filename}` });
-    }
+//     // Replicar exactamente la lógica de poster.py líneas 302-303
+//     const safeName = monster.toLowerCase().replace(/\s+/g, '_').replace(/'/g, '');
+//     const gameTag = game ? `_${game.toLowerCase().replace(/\s+/g, '_')}` : '';
+//     const filename = `${safeName}${gameTag}.${format}`;
+//     const filepath = path.join(OUTPUT_DIR, filename);
 
-    const mimeType = format === 'pdf' ? 'application/pdf' : 'image/png';
-    res.setHeader('Content-Type', mimeType);
-    res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
-    res.sendFile(filepath);
-  });
-});
+//     console.log(`[POSTER] Buscando archivo: ${filepath}`);
+
+//     if (!fs.existsSync(filepath)) {
+//       return res.status(404).json({ error: `Archivo generado no encontrado: ${filename}` });
+//     }
+
+//     const mimeType = format === 'pdf' ? 'application/pdf' : 'image/png';
+//     res.setHeader('Content-Type', mimeType);
+//     res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+//     res.sendFile(filepath);
+//   });
+// });
 
 //PRUEBA POST
 // curl -X POST http://localhost:3000/monsters -H "Content-Type: application/json" -d "{\"name\":\"Test Monster\",\"species\":\"test wyvern\",\"type\":\"large\",\"elements\":[\"fire\"],\"weaknesses\":[\"water\"],\"games\":[\"World\"]}"

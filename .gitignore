@@ -807,3 +807,4 @@ generator/output/*
 generator/.env
 .env.development
 .env.production
+TODO.TXT
