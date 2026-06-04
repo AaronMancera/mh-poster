@@ -284,7 +284,7 @@ args.push('--format', format);
 
 // ── Arrancar servidor ─────────────────────────────────────
 app.listen(PORT, () => {
-  conselo.log(`Servidor MH API corriendo`);
+  console.log(`Servidor MH API corriendo`);
   // console.log(`\nServidor MH API corriendo en http://localhost:${PORT}`);
   // console.log('\nEndpoints disponibles:');
   // console.log(`  GET    http://localhost:${PORT}/monsters`);
