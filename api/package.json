@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-        "postinstall": "python3 -m pip install --break-system-packages Pillow requests python-dotenv numpy && node src/scripts/downloadImages.js",
+        "postinstall": "python3 -m pip install --break-system-packages Pillow requests python-dotenv numpy && node src/script/downloadImages.js",
     "start": "node src/server.js"
   },
   "dependencies": {
