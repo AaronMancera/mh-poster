@@ -246,9 +246,10 @@ app.post('/posters/generate', (req, res) => {
 
 const PYTHON = process.platform === 'win32'
   ? path.join(__dirname, '..', '..', '.venv', 'Scripts', 'python.exe')
-  : 'python3';  const args   = [POSTER_SCRIPT, monster, '--stdout'];  // ← añadir --stdout
-  if (game)   args.push('--game',   game);
-  args.push('--format', format);
+  : path.join(__dirname, '..', '..', '.venv', 'bin', 'python3');
+const args = [POSTER_SCRIPT, monster, '--stdout'];
+if (game) args.push('--game', game);
+args.push('--format', format);
 
   console.log(`[POSTER] Ejecutando: ${PYTHON} ${args.join(' ')}`);
 
